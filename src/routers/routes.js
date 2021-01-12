@@ -5,7 +5,7 @@ import IndexPage from '../Pages/IndexPage.vue';
 // creating routes for every page
 export default [
     {
-        path: "/index",
+        path: "/",
         name: "index",
         meta: {
             layout: "guest-layout",
