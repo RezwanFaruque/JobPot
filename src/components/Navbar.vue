@@ -1,6 +1,7 @@
 <template>
    <div>
-       this is navbar component
+       <router-link to="/">Home</router-link>
+       <router-link to="/personal-info">Personal Info </router-link>
    </div>
 </template>
 
