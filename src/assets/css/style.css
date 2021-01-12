@@ -1,3 +1,25 @@
-
+@font-face {
+  font-family: "Poppin-Regular";
+  src: url(../vendor/Fonts/Poppins/Poppins-Regular.ttf);
+}
+#section-navbar .navbar nav {
+  padding: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+#section-navbar .navbar nav a img {
+  width: 115px;
+  height: auto;
+}
+#section-navbar .navbar nav .collapse ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#section-navbar .navbar nav .collapse ul li a {
+  font-size: 14px;
+  color: #2F3639;
+  font-family: "Poppin-Regular";
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

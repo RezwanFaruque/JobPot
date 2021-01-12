@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["sass/fonts/fonts.scss","sass/components-style/navbar.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;ACAI;EACI;EACA;EACA;;AAGE;EACI;EACA;;AAUE;EACI;EACA;;AACA;EACI;EACA;EACA;EACA","file":"style.css"}
