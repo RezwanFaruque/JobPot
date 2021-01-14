@@ -1,5 +1,7 @@
 #section-navbar{
     .navbar{
+        height: 100px;
+        padding: 0;
         nav{
             padding: 0;
             width: 100%;
@@ -21,11 +23,23 @@
                     li{
                         padding-left: 20px;
                         padding-right: 20px;
+                        &.spec{
+                            a{
+                                color: #277F6A;
+                            }
+                        }
                         a{
                             font-size: 14px;
                             color: #2F3639;
                             font-family: 'Poppin-Regular';
                             text-decoration: none;
+
+                        }
+                        button{
+                            border:  none;
+                            font-family: 'Poppin-Regular';
+                            background-color: #FFFFFF;
+                            color: #2F3639;
 
                         }
                     }

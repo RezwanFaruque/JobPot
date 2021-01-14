@@ -19,9 +19,9 @@
                                 <router-link to="/">Build/Upload Resume</router-link>
                             </li>
                         </ul>
-                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
         
-                            <li class="nav-item">
+                            <li class="nav-item spec">
                                 <router-link to="/">Post A Job</router-link>
                             </li>
                             <li class="nav-item">

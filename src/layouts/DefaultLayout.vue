@@ -1,7 +1,7 @@
 <template>
   <div>
       <Navbar></Navbar>
-      <Bannar></Bannar>
+      
       <div class="container">
           <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12">
@@ -20,7 +20,7 @@
 <script>
 
 import Navbar from '../components/Navbar.vue';
-import Bannar from '../components/Bannar.vue';
+
 import Footer from '../components/Footer.vue';
 import LeftSideBar from '../components/LeftSideBar.vue';
 
@@ -28,7 +28,7 @@ export default {
     name: 'default-layout',
     components: {
         Navbar,
-        Bannar,
+        
         LeftSideBar,
         Footer
     }

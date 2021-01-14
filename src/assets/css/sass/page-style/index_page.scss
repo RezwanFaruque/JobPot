@@ -1,0 +1,73 @@
+#index-page{
+    section{
+        &.our-services{
+            margin-top: 120px;
+            .container{
+                .row{
+                    .col-sm-12{
+                        &.start{
+                            display: flex;
+                            justify-content: flex-start;
+                        }
+                        &.middle{
+                            display: flex;
+                            justify-content: center;
+                        }
+                        display: flex;
+                        justify-content: flex-end;
+                        .service-card{
+                            background: #FFFFFF;
+                            box-shadow: 0px 1px 3px #00000029;
+                            border: 1px solid #F4F4F4;
+                            width: 300px;
+                            height: auto;
+                            padding-bottom: 39px;
+                            padding-left: 18px;
+                            padding-right: 17px;
+                            .header{
+                                height: 80px;
+                                position: relative;
+                                .icon-section{
+                                    .icon{
+                                        img{
+                                            width: 100px;
+                                            height: 100px;
+                                            position: absolute;
+                                            top: -65%;
+                                            right: 30%;
+                                        }
+                                    }
+                                }
+                            }
+                            .title{
+                                font-size: 16px;
+                                font-family: 'Poppin-Medium';
+                                color: #1C1C1C;
+                                text-align: center;
+                                line-height: 26px;
+                                margin-bottom: 12px;
+                            }
+                            .short-description{
+                                font-size: 8px;
+                                font-family: 'Poppin-Light';
+                                color: #B6B6B6;
+                                line-height: 16px;
+                                text-align: center;
+                                margin-bottom: 12px;
+                            }
+
+                            .footer{
+                                text-align: center;
+                                a{
+                                    font-size: 10px;
+                                    font-family: 'Poppin-Medium';
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
