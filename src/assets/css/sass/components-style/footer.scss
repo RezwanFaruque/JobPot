@@ -1,0 +1,40 @@
+#footer{
+    margin-top: 90px;
+    padding-top: 70px;
+    border-top: 3px solid #DBDDDE;
+    .container{
+        .row{
+            .footer-content{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                .fo-content{
+                    margin-right: 80px;
+                    &.about-us{
+                       
+                    }
+                    &.career-res{
+                       
+                    }
+                    &.job-sec{
+                        
+                    }
+
+                    &.employee{
+                        
+                    }
+
+                    &.so-section{
+                        
+                    }
+                    .title{
+                       
+                    }
+                    .links{
+                       
+                    }
+                }
+            }
+        }
+    }
+}
