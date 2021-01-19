@@ -2,9 +2,9 @@
   <div>
       <Navbar></Navbar>
       <Bannar></Bannar>
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-12">
+      <div class="contain">
+          <div class="row-contain">
+              <div class="col-contain">
                   <slot />
               </div>
           </div>

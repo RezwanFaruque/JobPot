@@ -109,6 +109,59 @@
 #footer .container .row .footer-content .fo-content {
   margin-right: 80px;
 }
+#footer .container .row .footer-content .fo-content .title {
+  font-size: 18px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+#footer .container .row .footer-content .fo-content .links ul {
+  list-style: none;
+  padding-left: 0;
+}
+#footer .container .row .footer-content .fo-content .links ul li {
+  margin-bottom: 10px;
+}
+#footer .container .row .footer-content .fo-content .links ul li .footer-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppin-Light";
+  color: #2F3639;
+  line-height: 21px;
+}
+#footer .container .row .last-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#footer .container .row .last-footer .title-text {
+  font-size: 18px;
+  font-family: "Poppin-Light";
+  color: #2F3639;
+  line-height: 27px;
+  margin-right: 40px;
+}
+#footer .container .row .last-footer .logo-with-phone {
+  display: flex;
+  align-items: center;
+}
+#footer .container .row .last-footer .logo-with-phone .logo .last-footer-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+#footer .container .row .last-footer .logo-with-phone .caller-text {
+  font-size: 18px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 27px;
+}
+
 #index-page section.our-services {
   margin-top: 120px;
 }
