@@ -25,20 +25,43 @@
                                 <router-link to="/">Post A Job</router-link>
                             </li>
                             <li class="nav-item">
-                                <button>Sign in</button>
+                                <button @click="showLoginModal">Sign in</button>
+                                <!-- sign up modal -->
+                                <SignUpModal ref="modal"></SignUpModal>
+                                
                             </li>
                         </ul>
                     </div>
                </div>
             </nav>
        </div>
+       
    </div>
+   
 </template>
 
 <script>
+// import signup modal component
+import SignUpModal from './SingupModal';
+
+// import jquery
+import $ from 'jquery';
 
 export default {
     name: 'Navbar',
+    components:{
+        SignUpModal,
+    },
+
+    methods:{
+
+        // show login modal
+        showLoginModal(){
+            let element = this.$refs.modal.$el;
+            $(element).modal('show');
+
+        }
+    }
 
 }
 </script>
