@@ -3,7 +3,9 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="modal-title" id="SignUpModalLabel">Sign Up</div>
+                    <div class="modal-title" id="SignUpModalLabel">
+                        Sign Up
+                    </div>
                     <div class="social-media-signup">
                         <div class="signup-button">
                             <button> <span class="logo">G</span> Continue with Google</button>
@@ -22,11 +24,31 @@
                     </div>
                     <div class="signup-form-with-tab">
                         <div>
-                            <b-tabs pills card>
-                                <b-tab title="Job Seeker" active>
+                            <b-tabs  pills class="tab-section">
+                                <b-tab class="job-seeker-tab" title="Job Seeker" active>
                                     <b-card-text>
-                                        <div>
-                                            Job Seeker Form
+                                        <div class="job-seeker-form">
+                                            <form>
+                                                <div class="form-row first-row">
+                                                    <input class="first-name" type="text" placeholder="First Name" name="">
+                                                    <input type="text" placeholder="Last Name"
+                                                    class="last-name" name="">
+                                                </div>
+                                                <div class="form-row">
+                                                    <input type="text" placeholder="Email" class="email" name="">
+                                                </div>  
+                                                <div class="form-row">
+                                                    <input type="password" placeholder="Password"
+                                                    class="password" name="">
+                                                </div>
+                                                <div class="form-row">
+                                                     <input type="password" placeholder="Confirm Password" class="password" name="">
+                                                </div>
+
+                                                <div class="submit-button">
+                                                    <button type="submit" class="signup">Sign Up</button>
+                                                </div>
+                                            </form>
                                         </div>
                                     </b-card-text>
                                 </b-tab>
@@ -41,8 +63,14 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="footer-signup-modal">
+                        <div class="text">
+                            Already have an account?
+                        </div>
+                        <div class="signinlink">
+                            <router-link to="/">Login</router-link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
