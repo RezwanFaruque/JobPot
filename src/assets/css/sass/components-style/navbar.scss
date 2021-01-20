@@ -48,3 +48,13 @@
         }
     }
 }
+
+
+// modal open margin and padding
+.modal{
+    &.show{
+        .modal-dialog{
+            margin: 9rem auto!important;
+        }
+    }
+}

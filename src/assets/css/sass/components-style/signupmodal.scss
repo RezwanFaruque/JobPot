@@ -1,0 +1,31 @@
+div{
+    &.modal{
+        .modal-dialog{
+            .modal-content{
+                .modal-header{
+                    justify-content: center;
+                    border-bottom: none;
+                    flex-direction: column;
+                    .modal-title{
+                        
+                        font-size: 20px;
+                        font-family: 'Poppin-SemiBold';
+                        line-height: 20px;
+                        color: #2F3639;
+                        margin-top: 50px;
+                    }
+                }
+                .modal-body{
+                    border-bottom: none;
+                }
+
+                .modal-footer{
+                    border-top: none;
+                }
+            }
+        }
+    }
+    &.fade{
+
+    }
+}

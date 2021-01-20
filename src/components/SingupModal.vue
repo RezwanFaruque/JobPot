@@ -3,13 +3,42 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="SignUpModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
+                    <div class="modal-title" id="SignUpModalLabel">Sign Up</div>
+                    <div class="social-media-signup">
+                        <div class="signup-button">
+                            <button> <span class="logo">G</span> Continue with Google</button>
+                        </div>
+                        <div class="signup-button">
+                            <button> <span class="logo">F</span> Continue with Facebook</button>
+                        </div>
+                        <div class="signup-button">
+                            <button><span class="logo">L</span> Continue with Linkedin</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-body">
-                    hihi
+                    <div class="or">
+                        or
+                    </div>
+                    <div class="signup-form-with-tab">
+                        <div>
+                            <b-tabs pills card>
+                                <b-tab title="Job Seeker" active>
+                                    <b-card-text>
+                                        <div>
+                                            Job Seeker Form
+                                        </div>
+                                    </b-card-text>
+                                </b-tab>
+                                <b-tab title="Company">
+                                    <b-card-text>
+                                        Company Form
+                                    </b-card-text>
+                                </b-tab>
+                            </b-tabs>
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -21,6 +50,7 @@
 </template>
 
 <script>
+import 'jquery';
 export default {
     name: 'SignUpModal',
 }

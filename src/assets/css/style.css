@@ -47,6 +47,10 @@
   color: #2F3639;
 }
 
+.modal.show .modal-dialog {
+  margin: 9rem auto !important;
+}
+
 #bannar-section {
   height: 60vh;
   display: flex;
@@ -162,6 +166,24 @@
   line-height: 27px;
 }
 
+div.modal .modal-dialog .modal-content .modal-header {
+  justify-content: center;
+  border-bottom: none;
+  flex-direction: column;
+}
+div.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 20px;
+  font-family: "Poppin-SemiBold";
+  line-height: 20px;
+  color: #2F3639;
+  margin-top: 50px;
+}
+div.modal .modal-dialog .modal-content .modal-body {
+  border-bottom: none;
+}
+div.modal .modal-dialog .modal-content .modal-footer {
+  border-top: none;
+}
 #index-page section.our-services {
   margin-top: 120px;
 }
