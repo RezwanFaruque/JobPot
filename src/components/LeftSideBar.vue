@@ -1,6 +1,6 @@
 <template>
-  <div>
-      this is left sidebar component
+  <div id="profile-details">
+      this is profile details component;
   </div>
 </template>
 
