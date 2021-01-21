@@ -54,7 +54,36 @@
                                 </b-tab>
                                 <b-tab title="Company">
                                     <b-card-text>
-                                        Company Form
+                                        <div class="company-form">
+                                            <form>
+                                                <div class="form-row">
+                                                    <input type="text" class="company-name" placeholder="Company Name" name="">
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <select>
+                                                        <option>Company Type</option>
+                                                        <option>Company Type One</option>
+                                                        <option>Company Type Two</option>
+                                                    </select>
+                                                </div>
+
+                                                 <div class="form-row">
+                                                    <input type="text" class="company-email" placeholder="Company Email" name="">
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <input type="text" class="company-password" placeholder="Company Password" name="">
+                                                </div>
+
+                                                 <div class="form-row">
+                                                    <input type="text" class="confirm-password" placeholder="Confirm Password" name="">
+                                                </div>
+                                                <div class="company-form-submit">
+                                                    <button type="submit" class="button-submit">Sign Up</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </b-card-text>
                                 </b-tab>
                             </b-tabs>
