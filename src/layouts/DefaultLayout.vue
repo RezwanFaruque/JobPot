@@ -2,17 +2,20 @@
   <div>
       <Navbar></Navbar>
       
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                  <LeftSideBar></LeftSideBar>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12">
-                  <slot />
-              </div>
+        <div class="body-contain">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <LeftSideBar></LeftSideBar>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <slot />
+                    </div>
 
-          </div>
-      </div>
+                </div>
+            </div>
+        </div>
+      
       <Footer></Footer>
   </div>
 </template>
@@ -36,3 +39,10 @@ export default {
 
 }
 </script>
+
+<style>
+    .body-contain{
+        background: #F6F7F8;
+    }
+</style>
+
