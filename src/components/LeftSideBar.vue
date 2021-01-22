@@ -61,7 +61,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/applied-job.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Applied Job</router-link>
+							<router-link to="/applied-job">Applied Job</router-link>
 						</div>
 					</div>
 

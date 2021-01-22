@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Poppin-Regular";
   src: url(../vendor/Fonts/Poppins/Poppins-Regular.ttf);
@@ -655,6 +656,83 @@
 
 #personal-info {
   margin-top: 50px;
+}
+
+#appliedjob {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#appliedjob .title {
+  font-size: 16px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 25px;
+}
+#appliedjob .applied-job-card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 2px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+}
+#appliedjob .applied-job-card .header .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+#appliedjob .applied-job-card .header .header-content .left-side .image {
+  width: 60px;
+  height: 45px;
+}
+#appliedjob .applied-job-card .header .header-content .left-side .title {
+  font-size: 12px;
+  font-family: "Poppin-Medium";
+  color: #000000;
+  line-height: 18px;
+}
+#appliedjob .applied-job-card .header .header-content .left-side .location {
+  font-size: 6px;
+  font-family: "Poppin-Regular";
+  color: #6B6B8C;
+  line-height: 9px;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-text::after {
+  content: "⠇";
+  font-size: 20px;
+  cursor: pointer;
+}
+#appliedjob .applied-job-card .body {
+  padding-top: 15px;
+  font-size: 8px;
+  font-family: "Poppin-Light";
+  color: #B6B6BB;
+  line-height: 12px;
+  height: 50px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#appliedjob .applied-job-card .footer .tags {
+  display: flex;
+  align-items: center;
+}
+#appliedjob .applied-job-card .footer .tags span {
+  width: 75px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #277F6A;
+  flex-direction: column;
+  margin-right: 30px;
+  font-size: 8px;
+  font-family: "Poppin-Medium";
+  color: #FFFFFF;
+}
+#appliedjob .applied-job-card .footer .applied-duration {
+  margin-top: 30px;
+  font-size: 8px;
+  font-family: "Poppin-Regular";
+  color: #277F6A;
+  line-height: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
