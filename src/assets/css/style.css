@@ -735,4 +735,48 @@
   line-height: 12px;
 }
 
+#our_blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000029;
+  border: 1px solid #F4F4F4;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 25px;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section .blog-card .title-date {
+  height: 60px;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section .blog-card .title-date .title {
+  font-size: 10px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 16px;
+  margin-top: 10px;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section .blog-card .title-date .date {
+  font-size: 6px;
+  line-height: 9px;
+  font-family: "Poppin-Light";
+  color: #B6B6B6;
+  margin-top: 5px;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section .blog-card .body {
+  font-size: 8px;
+  color: #B6B6B6;
+  font-family: "Poppin-Light";
+  line-height: 12px;
+  height: 36px;
+  overflow: hidden;
+}
+#our_blog .container .row .col-sm-12 .blog-body-section .blog-card .footer a {
+  font-size: 5px;
+  font-family: "Poppin-Light";
+  color: #0057FF;
+  line-height: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */

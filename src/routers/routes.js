@@ -2,6 +2,7 @@
 import IndexPage from '../Pages/IndexPage.vue';
 import PersonalInfo from '../Pages/PersonalInfo.vue';
 import AppliedJob from '../Pages/AppliedJob.vue';
+import OurBlog from '../Pages/OurBlog.vue';
 
 
 // creating routes for every page
@@ -33,6 +34,15 @@ export default [
             layout: "default-layout",
         },
         component: AppliedJob,
+
+    },
+    {
+        path: "/our-blog",
+        name: "ourblog",
+        meta: {
+            layout: "default-layout",
+        },
+        component: OurBlog,
 
     }
 ]

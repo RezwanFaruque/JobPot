@@ -111,7 +111,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/blog.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Blog</router-link>
+							<router-link to="/our-blog">Blog</router-link>
 						</div>
 					</div>
 				</div>
