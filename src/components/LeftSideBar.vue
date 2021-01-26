@@ -70,7 +70,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/save-for-later.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Save for later</router-link>
+							<router-link to="/save-for-later">Save for later</router-link>
 						</div>
 					</div>
 
