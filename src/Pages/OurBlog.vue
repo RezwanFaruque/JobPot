@@ -28,7 +28,7 @@
                                 Fusce
                             </div>
                             <div class="footer">
-                                <router-link to="/">Read more...</router-link>
+                                <router-link :to="`/blog/1`" >Read more...</router-link>
                             </div>
                         </div>
                     </div>
@@ -505,6 +505,7 @@
 
 export default {
     name: 'OurBlog',
+
 }
 </script>
 

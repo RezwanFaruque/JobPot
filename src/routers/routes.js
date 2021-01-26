@@ -4,6 +4,7 @@ import PersonalInfo from '../Pages/PersonalInfo.vue';
 import AppliedJob from '../Pages/AppliedJob.vue';
 import OurBlog from '../Pages/OurBlog.vue';
 import SaveForLater from '../Pages/SavedForLater.vue';
+import BlogDetails from '../Pages/BlogDetails.vue';
 
 
 // creating routes for every page
@@ -53,6 +54,15 @@ export default [
             layout: "default-layout",
         },
         component: SaveForLater,
+
+    },
+    {
+        path: "/blog/:id",
+        name: "blog/details",
+        meta: {
+            layout: "default-layout",
+        },
+        component: BlogDetails,
 
     }
 ]
