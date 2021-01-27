@@ -41,11 +41,45 @@
                     }
                 }
                 .right-side{
+                    position: relative;
                     .dot-text{
                         &::after{
                             content: '\2807';
                             font-size: 20px;
                             cursor: pointer;
+                        }
+                    }
+                    .dot-click-open{
+                        position: absolute;
+                        right: 0;
+                        top: 30px;
+                        width: 155px;
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        box-shadow: 0px 0px 6px #00000029;
+                        z-index: 9;
+                        .share-content{
+                            display: flex;
+                            align-items: center;
+                            height: 27px;
+                            padding-left: 6px;
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #F6F7F8;
+                            }
+
+                            .icon{
+                                img{
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                            }
+                            .text{
+                                padding-left: 10px;
+                                font-family: 'Poppin-Regular';
+                                font-size: 9px;
+                                line-height: 13px;
+                                color: #2F3639;
+                            }
                         }
                     }
                 }

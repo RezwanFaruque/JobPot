@@ -19,8 +19,27 @@
                        </div>
                    </div>
                    <div class="right-side">
-                       <div class="dot-text">
+                       <div @click="openjobshare = !openjobshare" class="dot-text">
                            <!-- dot text right button -->
+                       </div>
+                       <div v-if="openjobshare" class="dot-click-open">
+                           <div class="share-content">
+                               <div class="icon">
+                                   <img class="img-fluid" src="../assets/vendor/Images/messenger.png" alt="" srcset="">
+                               </div>
+                               <div class="text">
+                                   Send in a message
+                               </div>
+                           </div>
+
+                           <div class="share-content">
+                               <div class="icon">
+                                   <img src="../assets/vendor/Images/copy-link.png" alt="" srcset="">
+                               </div>
+                               <div class="text">
+                                    Copy Link
+                               </div>
+                           </div>
                        </div>
                    </div>
                </div>
@@ -184,9 +203,20 @@
 
 <script>
 
+// import $ from 'jquery';
 
 export default {
     name: 'AppliedJob',
+    data: function(){
+        return{
+           openjobshare: false,
+        }
+    },
+    methods: {
+       
+
+        
+    }
 
 }
 </script>

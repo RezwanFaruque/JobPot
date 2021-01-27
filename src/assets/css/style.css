@@ -695,10 +695,43 @@
   color: #6B6B8C;
   line-height: 9px;
 }
+#appliedjob .applied-job-card .header .header-content .right-side {
+  position: relative;
+}
 #appliedjob .applied-job-card .header .header-content .right-side .dot-text::after {
   content: "⠇";
   font-size: 20px;
   cursor: pointer;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-click-open {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 155px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  z-index: 9;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-click-open .share-content {
+  display: flex;
+  align-items: center;
+  height: 27px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-click-open .share-content:hover {
+  background-color: #F6F7F8;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-click-open .share-content .icon img {
+  width: 10px;
+  height: 10px;
+}
+#appliedjob .applied-job-card .header .header-content .right-side .dot-click-open .share-content .text {
+  padding-left: 10px;
+  font-family: "Poppin-Regular";
+  font-size: 9px;
+  line-height: 13px;
+  color: #2F3639;
 }
 #appliedjob .applied-job-card .body {
   padding-top: 15px;
