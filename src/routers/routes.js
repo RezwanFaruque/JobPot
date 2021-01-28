@@ -5,6 +5,7 @@ import AppliedJob from '../Pages/AppliedJob.vue';
 import OurBlog from '../Pages/OurBlog.vue';
 import SaveForLater from '../Pages/SavedForLater.vue';
 import BlogDetails from '../Pages/BlogDetails.vue';
+import ChangePassword from '../Pages/ChangePassword.vue';
 
 
 // creating routes for every page
@@ -63,6 +64,15 @@ export default [
             layout: "default-layout",
         },
         component: BlogDetails,
+
+    },
+    {
+        path: "/change-password",
+        name: "changepassword",
+        meta: {
+            layout: "default-layout",
+        },
+        component: ChangePassword,
 
     }
 ]

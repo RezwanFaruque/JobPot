@@ -127,7 +127,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/change-password.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Change Password</router-link>
+							<router-link to="/change-password">Change Password</router-link>
 						</div>
 					</div>
 
