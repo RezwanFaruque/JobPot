@@ -6,6 +6,8 @@ import OurBlog from '../Pages/OurBlog.vue';
 import SaveForLater from '../Pages/SavedForLater.vue';
 import BlogDetails from '../Pages/BlogDetails.vue';
 import ChangePassword from '../Pages/ChangePassword.vue';
+import SuggestedJob from '../Pages/SuggestedJob.vue';
+import EditResume from '../Pages/EditResume.vue';
 
 
 // creating routes for every page
@@ -73,6 +75,24 @@ export default [
             layout: "default-layout",
         },
         component: ChangePassword,
+
+    },
+    {
+        path: "/suggested-job",
+        name: "suggestedjob",
+        meta: {
+            layout: "default-layout",
+        },
+        component: SuggestedJob,
+
+    },
+    {
+        path: "/edit-resume",
+        name: "editresume",
+        meta: {
+            layout: "default-layout",
+        },
+        component: EditResume,
 
     }
 ]

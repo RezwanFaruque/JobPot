@@ -36,7 +36,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/edit-resume.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Edit Resume</router-link>
+							<router-link to="/edit-resume">Edit Resume</router-link>
 						</div>
 					</div>
 
@@ -79,7 +79,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/suggested-job.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Suggested Jobs</router-link>
+							<router-link to="/suggested-job">Suggested Jobs</router-link>
 						</div>
 					</div>
 				</div>
