@@ -15,6 +15,18 @@
   font-family: "Poppin-SemiBold";
   src: url(../vendor/Fonts/Poppins/Poppins-SemiBold.ttf);
 }
+@font-face {
+  font-family: "Poppin-Bold";
+  src: url(../vendor/Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../vendor/Fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../vendor/Fonts/Roboto/Roboto-Bold.ttf);
+}
 #section-navbar .navbar {
   height: 100px;
   padding: 0;
@@ -433,6 +445,88 @@
   font-size: 8px;
   line-height: 12px;
   text-decoration: none;
+}
+
+#personal_info {
+  margin-top: 35px;
+}
+#personal_info .accordion .tab-sections {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+#personal_info .accordion .tab-sections .title-with-toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#personal_info .accordion .tab-sections .title-with-toggle .title {
+  font-size: 14px;
+  font-family: "Poppin-Bold";
+}
+#personal_info .accordion .tab-sections .title-with-toggle .toggle-icon {
+  margin-left: 10px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .side-form .form-group label {
+  color: #2F3639;
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0rem;
+  margin-bottom: 4px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .side-form .form-group div input {
+  background-color: #F6F7F8;
+  border-radius: 0rem;
+  height: 25px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .side-form .form-group div .form-control {
+  background-color: #F6F7F8;
+  border-radius: 0rem;
+  height: 25px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .side-form .form-group div .custom-select {
+  background-color: #F6F7F8;
+  border-radius: 0rem;
+  height: 25px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .title {
+  font-size: 14px;
+  font-family: "Roboto-Bold";
+  color: #2F3639;
+}
+#personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .custom-select {
+  border: 0.3000000119px solid #B5B5B5;
+  background-color: #ffff;
+  height: auto;
+}
+#personal_info .accordion .tab-sections .collapse form .row .buttons {
+  display: flex;
+}
+#personal_info .accordion .tab-sections .collapse form .row .buttons.second {
+  margin-top: 20px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277F6A;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#personal_info .accordion .tab-sections .collapse form .row .buttons .close {
+  background-color: #DEEAF5;
+  border: 1px solid #DEEAF5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2F3639;
 }
 
 #index-page {
@@ -1212,6 +1306,7 @@
 
 #edit_resume {
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 #edit_resume .edit-resume-card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
