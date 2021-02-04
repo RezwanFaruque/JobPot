@@ -608,6 +608,118 @@
   border-radius: 0rem;
 }
 
+#work_experience {
+  margin-top: 35px;
+}
+#work_experience .accordion .tab-sections {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+#work_experience .accordion .tab-sections .title-with-toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#work_experience .accordion .tab-sections .title-with-toggle .title {
+  font-size: 14px;
+  font-family: "Poppin-Bold";
+}
+#work_experience .accordion .tab-sections .title-with-toggle .toggle-icon {
+  margin-left: 10px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .title-with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .title-with-button .button .edit-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277F6A;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .title-with-button .button .delete-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #FF0000;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit {
+  margin-bottom: 30px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2F3639;
+  line-height: 14px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group input {
+  border: 0.3000000119px solid #76899C;
+  height: 25px;
+  border-radius: 0rem;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group .b-form-datepicker {
+  border: 0.3000000119px solid #76899C;
+  height: 35px;
+  border-radius: 0rem;
+  margin-right: 10px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group .b-form-tags {
+  border: 0.3000000119px solid #76899C;
+  height: 35px;
+  border-radius: 0rem;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group .b-form-tags .b-form-tags-list {
+  background-color: white !important;
+  box-shadow: none !important;
+  display: block !important;
+  height: auto !important;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .form-group .period {
+  display: flex;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277F6A;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#work_experience .accordion .tab-sections .collapse .workexp-info .form-workexp-edit form .row .col-sm-12 .buttons .close {
+  background-color: #DEEAF5;
+  border: 1px solid #DEEAF5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2F3639;
+}
+
 #index-page {
   margin-bottom: 100px;
 }
