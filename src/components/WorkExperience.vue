@@ -90,7 +90,7 @@
                 </div>
               </b-form>
             </div>
-            <div v-else class="-details">
+            <div v-else class="workexp-details">
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                   <div class="info">
