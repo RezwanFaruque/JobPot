@@ -792,6 +792,464 @@
   color: #2F3639;
 }
 
+#special_skills {
+  padding-bottom: 50px;
+}
+#special_skills .accordion .tab-sections {
+  margin-top: 20px;
+}
+#special_skills .accordion .tab-sections .title-with-toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#special_skills .accordion .tab-sections .title-with-toggle .title {
+  font-size: 14px;
+  font-family: "Poppin-Bold";
+}
+#special_skills .accordion .tab-sections .title-with-toggle .toggle-icon {
+  margin-left: 10px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .title {
+  font-size: 12px;
+  font-family: "Roboto-Bold";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .title-with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .title-with-button .title {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .title-with-button .button .edit-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .title-with-button .button .delete-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #ff0000;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .form-group input {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .form-group textarea {
+  border: 1px solid #76899c;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .edit-special-skills-section form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .info-special-skills-section .skill-title {
+  background: #277f6a 0% 0% no-repeat padding-box;
+  border: 1px solid #277f6a;
+  border-radius: 2px;
+  width: 175px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .info-special-skills-section .skill-description {
+  width: 100%;
+  height: 75px;
+  background: #f6f7f8;
+  border: 1px solid #f6f7f8;
+  margin-top: 15px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .info-special-skills-section .skill-description p {
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #2f3639;
+  line-height: 14px;
+  padding: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input {
+  margin-top: 30px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 input {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 textarea {
+  border: 1px solid #76899c;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .specialization-info .specialization-input form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .title-with-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .title-with-buttons .title {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .title-with-buttons .button .edit-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .title-with-buttons .button .delete-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #ff0000;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .form-group input {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .form-group .custom-select {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-edit-form form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-details .language-name {
+  width: 100px;
+  background: #277f6a;
+  border: 1px solid #277f6a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  text-align: center;
+  line-height: 14px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-details .language-level-withname {
+  margin-top: 20px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-details .language-level-withname .l-name {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-details .language-level-withname .l-level {
+  width: 100px;
+  background: #f6f7f8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  text-align: center;
+  line-height: 14px;
+  color: #2f3639;
+  margin-top: 15px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form {
+  margin-top: 20px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .form-group input {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .form-group .custom-select {
+  border: 1px solid #76899c;
+  height: 25px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .language-skills .language-info-input-form form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .title-with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .title-with-button .button .edit-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .title-with-button .button .delete-button {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #ff0000;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .form-group input {
+  border: 0.3000000119px solid #76899c;
+  height: 25px;
+  border-radius: 0rem;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .form-group .custom-select {
+  border: 0.3000000119px solid #76899c;
+  height: 25px;
+  border-radius: 0rem;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-edit form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-details .row .col-sm-12 .info {
+  margin-bottom: 35px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-details .row .col-sm-12 .info .title {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-info .reference-details .row .col-sm-12 .info .inf {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  line-height: 14px;
+  color: #2f3639;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input {
+  margin-top: 20px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .form-group .col-form-label {
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  color: #2f3639;
+  line-height: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .form-group input {
+  border: 0.3000000119px solid #76899c;
+  height: 25px;
+  border-radius: 0rem;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .form-group .custom-select {
+  border: 0.3000000119px solid #76899c;
+  height: 25px;
+  border-radius: 0rem;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .buttons {
+  display: flex;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .buttons .save {
+  border: none;
+  width: 85px;
+  text-align: center;
+  background-color: #277f6a;
+  font-size: "Roboto-Medium";
+  line-height: 17px;
+  color: white;
+  margin-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+#special_skills .accordion .tab-sections .collapse .reference-section .reference-input form .row .col-sm-12 .buttons .close {
+  background-color: #deeaf5;
+  border: 1px solid #deeaf5;
+  font-size: 14px;
+  width: 85px;
+  line-height: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #2f3639;
+}
+
 #index-page {
   margin-bottom: 100px;
 }
