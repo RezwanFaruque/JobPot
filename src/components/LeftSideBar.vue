@@ -45,7 +45,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/personal-info.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Personal Information</router-link>
+							<router-link to="/upload-resume">Upload Resume</router-link>
 						</div>
 					</div>
 				</div>
