@@ -13,10 +13,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 // importing layouts
 import DefaultLayout from './layouts/DefaultLayout';
 import GuestLayout from './layouts/GuestLayout';
+import JobSearchLayout from './layouts/JobSearchLayout';
 
 // register layout componet globally
 Vue.component('default-layout',DefaultLayout);
 Vue.component('guest-layout',GuestLayout);
+Vue.component('job-search-layout',JobSearchLayout);
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);

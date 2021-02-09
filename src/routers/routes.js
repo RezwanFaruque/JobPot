@@ -9,6 +9,7 @@ import ChangePassword from '../Pages/ChangePassword.vue';
 import SuggestedJob from '../Pages/SuggestedJob.vue';
 import EditResume from '../Pages/EditResume.vue';
 import UploadResume from '../Pages/UploadResume.vue';
+import BrowseJob from '../Pages/BrowseJob.vue';
 
 
 // creating routes for every page
@@ -104,6 +105,16 @@ export default [
             layout: "default-layout",
         },
         component: UploadResume,
+
+    },
+
+    {
+        path: "/browse-job",
+        name: "browsejob",
+        meta: {
+            layout: "job-search-layout",
+        },
+        component: BrowseJob,
 
     }
 ]
