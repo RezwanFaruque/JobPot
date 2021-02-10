@@ -34,34 +34,105 @@
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 2px;
     margin: auto;
-    form{
-        .search-bar-bannar{
-            .search-by{
-                &.keyword{
-
-                }
-                &.category{
-
-                }
-                &.job-type{
-
-                }
-                &.postal-code{
-
-                }
-                .submit-button{
-
-                }
+    form {
+      height: 100%;
+      .search-bar-bannar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 100%;
+        .search-by {
+          border-right: 1px solid #00000029;
+          &.keyword {
+            display: flex;
+            align-items: center;
+            .search-icon {
+              i {
+                color: #0057ff;
+                font-size: 18px;
+              }
             }
-
-            .submit-button{
-                .find-job{
-                    
-                }
+          }
+          &.category {
+          }
+          &.job-type {
+          }
+          &.postal-code {
+            display: flex;
+            align-items: center;
+          }
+          .input {
+            .form-control {
+              border: 0;
+              
+              &:focus {
+                box-shadow: none;
+              }
             }
+            input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              font-size: 12px;
+              line-height: 18px;
+              font-family: 'Poppin-Regular';
+              color: #000000;
+            }
+            input::-moz-placeholder { /* Firefox 19+ */
+              font-size: 12px;
+              line-height: 18px;
+              font-family: 'Poppin-Regular';
+              color: #000000;
+            }
+            .custom-select {
+              border: 0;
+              &:focus {
+                box-shadow: none;
+              }
+            }
+            .custom-select::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              font-size: 12px;
+              line-height: 18px;
+              font-family: 'Poppin-Regular';
+              color: #000000;
+            }
+            .custom-select::-moz-placeholder { /* Firefox 19+ */
+              font-size: 12px;
+              line-height: 18px;
+              font-family: 'Poppin-Regular';
+              color: #000000;
+            }
+            .custom-select:focus {
+              box-shadow: none;
+            }
+          }
+
+          
         }
 
+        .submit-button {
+          .find-job {
+            width: 130px;
+            height: 100%;
+            background-color: #0057ff;
+            border-radius: 3px;
+            font-size: 16px;
+            line-height: 25px;
+            font-family: "Poppin-Regular";
+            color: #ffffff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: none;
+            &:focus {
+              border: none;
+            }
+          }
+        }
+
+        .submit-button {
+          .find-job {
+          }
+        }
+      }
     }
-    
   }
 }

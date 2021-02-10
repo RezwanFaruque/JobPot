@@ -1259,7 +1259,48 @@
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 2px;
-  height: 767px;
+  height: auto;
+  padding: 14px;
+}
+#jobfilter_sidebar .section {
+  margin-bottom: 35px;
+}
+#jobfilter_sidebar .section .section-title {
+  font-size: 14px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 21px;
+}
+#jobfilter_sidebar .section .section-body {
+  margin-top: 30px;
+}
+#jobfilter_sidebar .section .section-body form .check-boxes-with-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#jobfilter_sidebar .section .section-body form .check-boxes-with-number .check-box .custom-checkbox label {
+  font-size: 12px;
+  font-family: "Roboto-Regular";
+  color: #76899C;
+  line-height: 14px;
+}
+#jobfilter_sidebar .section .section-body form .check-boxes-with-number .check-box .custom-checkbox label::before {
+  width: 14px;
+  height: 14px;
+  border-radius: 0;
+  top: 0;
+}
+#jobfilter_sidebar .section .section-body form .check-boxes-with-number .number {
+  width: 15px;
+  height: 15px;
+  background-color: #F6F7F8;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Poppin-Regular";
+  line-height: 12px;
+  color: #2B9CFD;
 }
 
 #job_search_bannar {
@@ -1297,6 +1338,91 @@
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 2px;
   margin: auto;
+}
+#job_search_bannar .search-bar-section form {
+  height: 100%;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by {
+  border-right: 1px solid #00000029;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword {
+  display: flex;
+  align-items: center;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword .search-icon i {
+  color: #0057ff;
+  font-size: 18px;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by.postal-code {
+  display: flex;
+  align-items: center;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .form-control {
+  border: 0;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .form-control:focus {
+  box-shadow: none;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppin-Regular";
+  color: #000000;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppin-Regular";
+  color: #000000;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select {
+  border: 0;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+  box-shadow: none;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppin-Regular";
+  color: #000000;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppin-Regular";
+  color: #000000;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+  box-shadow: none;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job {
+  width: 130px;
+  height: 100%;
+  background-color: #0057ff;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "Poppin-Regular";
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+#job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job:focus {
+  border: none;
 }
 #index-page {
   margin-bottom: 100px;
