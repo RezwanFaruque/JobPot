@@ -10,6 +10,7 @@ import SuggestedJob from '../Pages/SuggestedJob.vue';
 import EditResume from '../Pages/EditResume.vue';
 import UploadResume from '../Pages/UploadResume.vue';
 import BrowseJob from '../Pages/BrowseJob.vue';
+import Help from '../Pages/Help.vue';
 
 
 // creating routes for every page
@@ -116,5 +117,14 @@ export default [
         },
         component: BrowseJob,
 
+    },
+
+    {
+        path: "/help",
+        name: "help",
+        meta: {
+            layout: "default-layout",
+        },
+        component: Help,
     }
 ]

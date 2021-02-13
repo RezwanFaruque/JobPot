@@ -136,7 +136,7 @@
 							<img class="logo-img" src="../assets/vendor/Images/help.png" alt="">	
 						</div>
 						<div class="links">
-							<router-link to="/">Help</router-link>
+							<router-link to="/help">Help</router-link>
 						</div>
 					</div>
 
