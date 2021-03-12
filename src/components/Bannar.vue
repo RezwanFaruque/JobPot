@@ -6,7 +6,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="left-side">
                  <div class="title">
-                   The Easiest Way to Get Your New <span>JOB</span>
+                   The Easiest Way to Get Your New Test <span>JOB</span>
                  </div>
                  <div class="subtitle">
                     Aenean sed nibh a magna posuere tempor.
