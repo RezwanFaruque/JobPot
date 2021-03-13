@@ -408,7 +408,7 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 2px;
   margin-bottom: 100px;
@@ -420,11 +420,16 @@
 #left-sidebar .left-sidebar .section .title {
   font-size: 10px;
   font-family: "Poppin-Medium";
-  color: #2F3639;
+  color: #2f3639;
   line-height: 16px;
   margin-bottom: 12px;
   padding-bottom: 5px;
   border-bottom: 1px solid #dde6e9;
+  display: flex;
+  justify-content: space-between;
+}
+#left-sidebar .left-sidebar .section .title .togglehideleftbar {
+  display: none;
 }
 #left-sidebar .left-sidebar .section .links .link-with-logo {
   display: flex;
@@ -445,7 +450,7 @@
 }
 #left-sidebar .left-sidebar .section .links .link-with-logo .links a {
   font-family: "Poppin-Regular";
-  color: #2F3639;
+  color: #2f3639;
   font-size: 8px;
   line-height: 12px;
   text-decoration: none;
@@ -3017,6 +3022,264 @@
   }
 }
 @media screen and (max-width: 1400px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 991px) {
+  #left-sidebar {
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 767px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 575px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 414px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 375px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 320px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 1400px) {
   #index-page {
     margin-bottom: 100px;
   }
@@ -3062,28 +3325,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 73px;
     margin-bottom: 73px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -3155,65 +3398,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1370px) {
@@ -3262,28 +3456,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 72px;
     margin-bottom: 72px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -3355,65 +3529,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -3462,28 +3587,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 67px;
     margin-bottom: 67px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -3555,65 +3660,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -3662,28 +3718,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 63px;
     margin-bottom: 63px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -3755,65 +3791,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -3862,28 +3849,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 57px;
     margin-bottom: 57px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -3955,65 +3922,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -4062,28 +3980,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 54px;
     margin-bottom: 54px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -4155,65 +4053,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -4262,28 +4111,8 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
     margin-top: 52px;
     margin-bottom: 52px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -4355,65 +4184,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -4458,28 +4238,6 @@
     font-family: "Poppin-Medium";
     text-decoration: none;
   }
-  #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
-  }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
     border: 1px solid #f4f4f4;
@@ -4550,65 +4308,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -4657,28 +4366,6 @@
     font-family: "Poppin-Medium";
     text-decoration: none;
   }
-  #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
-    padding-bottom: 40px;
-    background-color: #f6f7f8;
-  }
-  #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
-  }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
     border: 1px solid #f4f4f4;
@@ -4749,65 +4436,16 @@
   #index-page section.how-its-work {
     margin-bottom: 50px;
   }
-  #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
   #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
-    line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
-  #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -4867,26 +4505,16 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 40px;
-    background-color: #f6f7f8;
   }
   #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
+    font-size: 14px;
     line-height: 30px;
-    text-align: center;
   }
   #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
+    font-size: 18px;
+    line-height: 20px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -4959,65 +4587,21 @@
     margin-bottom: 50px;
   }
   #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     width: 300px;
     margin: auto;
   }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
   #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -5077,26 +4661,16 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 40px;
-    background-color: #f6f7f8;
   }
   #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
+    font-size: 14px;
     line-height: 30px;
-    text-align: center;
   }
   #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
+    font-size: 18px;
+    line-height: 20px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -5169,65 +4743,21 @@
     margin-bottom: 50px;
   }
   #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     width: 300px;
     margin: auto;
   }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
   #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -5287,26 +4817,16 @@
     text-decoration: none;
   }
   #index-page section.cr-dev-and-learning {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 40px;
-    background-color: #f6f7f8;
   }
   #index-page section.cr-dev-and-learning .title {
-    font-size: 20px;
-    color: #b5b5b5;
-    font-family: "Poppin-Light";
+    font-size: 14px;
     line-height: 30px;
-    text-align: center;
   }
   #index-page section.cr-dev-and-learning .subtitle {
-    font-size: 30px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    line-height: 46px;
+    font-size: 18px;
+    line-height: 20px;
   }
   #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
     background-color: #ffffff;
@@ -5379,65 +4899,21 @@
     margin-bottom: 50px;
   }
   #index-page section.how-its-work .container .row .col-12 .title {
-    font-size: 40px;
-    line-height: 55px;
-    font-family: "Poppin-SemiBold";
-    color: #2f3639;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  #index-page section.how-its-work .container .row .col-12 .body {
-    font-size: 12px;
-    font-family: "Poppin-Light";
-    color: #b5b5b5;
-    line-height: 24px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section {
-    background-color: #fafafa;
-    padding-top: 55px;
-    padding-bottom: 55px;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .title {
-    font-size: 20px;
-    font-family: "Poppin-Light";
-    color: #616161;
+    font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .title div {
-    font-family: "Poppin-Regular";
-    font-size: 25px;
-    color: #616161;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
-  }
-  #index-page section.subscribe .container .row .col-12 .main-section .body {
-    font-size: 10px;
-    font-family: "Poppin-Light";
-    color: #c2c2c2;
-    line-height: 16px;
-    text-align: center;
-    width: 365px;
-    margin: auto;
-    margin-bottom: 20px;
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     width: 300px;
     margin: auto;
   }
-  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
-    background-color: #277f6a;
-    color: #ffffff;
-    line-height: 23px;
-    font-size: 15px;
-    font-family: "Poppin-Regular";
-    border: none;
-  }
   #index-page .after-how-work-hr {
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 
