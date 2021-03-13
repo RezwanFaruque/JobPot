@@ -3,7 +3,7 @@
     <div id="bannar-section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="left-side">
                  <div class="title">
                    The Easiest Way to Get Your New <span>JOB</span>
@@ -25,7 +25,7 @@
                  </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="right-side">
                 <div class="bn-image">
                   <img class="bannar-vector" :src="require('../assets/vendor/Images/bannar-vector.png')" alt="">

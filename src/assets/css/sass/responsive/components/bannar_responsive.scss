@@ -1,0 +1,64 @@
+@each $width in $resposive-width {
+  @media screen and (max-width: #{$width}px) {
+   
+    #bannar-section {
+
+        @if($width >= 769){
+            height:  80vh;
+        }
+     
+      .container {
+        .row {
+          .col-sm-12 {
+            .left-side {
+              .title {
+               
+                span {
+                 
+                }
+              }
+
+              .subtitle {
+               
+              }
+              .search-section {
+                form {
+                  .input-group {
+                    
+                    input {
+                    }
+                    button {
+                     
+                    }
+                  }
+                }
+              }
+            }
+
+            .right-side {
+               
+                @if($width >= 769){
+                    margin-left: 0;
+                }
+              
+              .bn-image {
+                  
+                  @if($width >= 769px){
+                      display: flex;
+                      margin-top: 15px;
+                      
+                  }
+                
+                .bannar-vector {
+                    @if($width >= 769px){
+                       margin: auto;
+                    }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
