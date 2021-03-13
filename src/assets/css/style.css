@@ -2791,7 +2791,7 @@
 
 @media screen and (max-width: 1400px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2806,7 +2806,7 @@
 }
 @media screen and (max-width: 1370px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2821,7 +2821,7 @@
 }
 @media screen and (max-width: 1280px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2836,7 +2836,7 @@
 }
 @media screen and (max-width: 1200px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2851,7 +2851,7 @@
 }
 @media screen and (max-width: 1080px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2866,7 +2866,7 @@
 }
 @media screen and (max-width: 1024px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2881,7 +2881,7 @@
 }
 @media screen and (max-width: 991px) {
   #bannar-section {
-    height: 80vh;
+    height: 90vh;
   }
   #bannar-section .container .row .col-sm-12 .right-side {
     margin-left: 0;
@@ -2892,6 +2892,2552 @@
   }
   #bannar-section .container .row .col-sm-12 .right-side .bn-image .bannar-vector {
     margin: auto;
+  }
+}
+@media screen and (max-width: 414px) {
+  #bannar-section .container .row .col-sm-12 .left-side .title {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .title span {
+    font-size: 22px;
+    text-align: center;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .subtitle {
+    text-align: center;
+  }
+  #bannar-section .container .row .col-sm-12 .right-side .bn-image .bannar-vector {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  #bannar-section .container .row .col-sm-12 .left-side .title {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .title span {
+    font-size: 22px;
+    text-align: center;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .subtitle {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  #bannar-section .container .row .col-sm-12 .left-side .title {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .title span {
+    font-size: 22px;
+    text-align: center;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .subtitle {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 991px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 414px) {
+  #footer .container .row .footer-content {
+    flex-direction: column;
+  }
+  #footer .container .row .footer-content .fo-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #footer .container .row .footer-content .fo-content .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #footer .container .row .footer-content .fo-content .links {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  #footer .container .row .footer-content .fo-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #footer .container .row .footer-content .fo-content .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #footer .container .row .footer-content .fo-content .links {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  #footer .container .row .footer-content .fo-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #footer .container .row .footer-content .fo-content .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #footer .container .row .footer-content .fo-content .links {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 88px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 73px;
+    margin-bottom: 73px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 86px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 80px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 75px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 63px;
+    margin-bottom: 63px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 68px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 57px;
+    margin-bottom: 57px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 64px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 62px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header .icon-section .icon img {
+    width: 60px;
+    height: 60px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  #index-page section.our-services .container .row .col-sm-12.start {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12.middle {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header .icon-section .icon img {
+    top: -30%;
+    right: 40%;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    width: 300px;
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  #index-page section.our-services .container .row .col-sm-12.start {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12.middle {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header .icon-section .icon img {
+    top: -30%;
+    right: 40%;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    width: 300px;
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  #index-page section.our-services .container .row .col-sm-12.start {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12.middle {
+    justify-content: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header .icon-section .icon img {
+    top: -30%;
+    right: 40%;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f8;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 20px;
+    color: #b5b5b5;
+    font-family: "Poppin-Light";
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 30px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    line-height: 46px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: "Poppin-SemiBold";
+    color: #2f3639;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .body {
+    font-size: 12px;
+    font-family: "Poppin-Light";
+    color: #b5b5b5;
+    line-height: 24px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    background-color: #fafafa;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 20px;
+    font-family: "Poppin-Light";
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-family: "Poppin-Regular";
+    font-size: 25px;
+    color: #616161;
+    line-height: 30px;
+    text-align: center;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .body {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #c2c2c2;
+    line-height: 16px;
+    text-align: center;
+    width: 365px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    width: 300px;
+    margin: auto;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section .input-group .search-subscribe {
+    background-color: #277f6a;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Poppin-Regular";
+    border: none;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 80px;
+    margin-top: 40px;
   }
 }
 

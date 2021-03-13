@@ -4,7 +4,7 @@
     #bannar-section {
 
         @if($width >= 769){
-            height:  80vh;
+            height:  90vh;
         }
      
       .container {
@@ -12,14 +12,24 @@
           .col-sm-12 {
             .left-side {
               .title {
-               
+               @if($width <= 500){
+                 font-size: 22px;
+                 text-align: center;
+                 line-height: 30px;
+               }
                 span {
-                 
+                  @if($width <= 500){
+                    font-size: 22px;
+                    text-align: center;
+                  }
                 }
               }
 
               .subtitle {
-               
+                @if($width <= 500){
+                  
+                  text-align: center;
+                }
               }
               .search-section {
                 form {
@@ -43,15 +53,19 @@
               
               .bn-image {
                   
-                  @if($width >= 769px){
+                  @if($width >= 769){
                       display: flex;
                       margin-top: 15px;
                       
                   }
                 
                 .bannar-vector {
-                    @if($width >= 769px){
+                    @if($width >= 769){
                        margin: auto;
+                    }
+
+                    @if($width == 414){
+                        width: 100%;
                     }
                 }
               }
