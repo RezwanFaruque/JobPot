@@ -297,8 +297,13 @@ export default {
 
   watch: {
     $route() {
-      this.decheight = true;
-      this.toggled = true;
+      if(screen.width <= 800){
+
+        this.decheight = true;
+        this.toggled = true;
+        
+      }
+     
     },
   },
 };
