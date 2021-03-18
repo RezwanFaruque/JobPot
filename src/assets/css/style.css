@@ -2899,6 +2899,35 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 800px) {
+  #bannar-section {
+    height: 90vh;
+  }
+  #bannar-section .container .row .col-sm-12 .right-side {
+    margin-left: 0;
+  }
+  #bannar-section .container .row .col-sm-12 .right-side .bn-image {
+    display: flex;
+    margin-top: 15px;
+  }
+  #bannar-section .container .row .col-sm-12 .right-side .bn-image .bannar-vector {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  #bannar-section .container .row .col-sm-12 .left-side .title {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .title span {
+    font-size: 22px;
+    text-align: center;
+  }
+  #bannar-section .container .row .col-sm-12 .left-side .subtitle {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 414px) {
   #bannar-section .container .row .col-sm-12 .left-side .title {
     font-size: 22px;
@@ -2977,6 +3006,24 @@
 @media screen and (max-width: 991px) {
   #footer .container .row .footer-content {
     flex-direction: row;
+  }
+}
+@media screen and (max-width: 800px) {
+  #footer .container .row .footer-content {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 500px) {
+  #footer .container .row .footer-content .fo-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #footer .container .row .footer-content .fo-content .title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #footer .container .row .footer-content .fo-content .links {
+    text-align: center;
   }
 }
 @media screen and (max-width: 414px) {
@@ -3084,6 +3131,45 @@
     overflow: hidden;
   }
 }
+@media screen and (max-width: 800px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
 @media screen and (max-width: 767px) {
   #left-sidebar {
     height: 885px;
@@ -3124,6 +3210,45 @@
   }
 }
 @media screen and (max-width: 575px) {
+  #left-sidebar {
+    height: 885px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: height 0.7s;
+  }
+  #left-sidebar.decreaseheight {
+    height: 50px;
+    overflow: hidden;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar {
+    display: block;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 2px;
+    transition: border-color 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ccc;
+    transition: background-color 0.25s, transform 0.25s;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on {
+    border-color: gr #2b9cfd;
+  }
+  #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
+    background: #2b9cfd;
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 500px) {
   #left-sidebar {
     height: 885px;
     margin-bottom: 20px;
@@ -3277,6 +3402,277 @@
   #left-sidebar .left-sidebar .section .title .togglehideleftbar.on:before {
     background: #2b9cfd;
     transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 1400px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  #job_search_bannar {
+    height: 80vh;
+  }
+  #job_search_bannar .bannar-layer .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #job_search_bannar .bannar-layer .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: -56%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar {
+    flex-direction: column;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by {
+    border: 1px solid #76899C;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.category {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.job-type {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.postal-code {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #job_search_bannar {
+    height: 80vh;
+  }
+  #job_search_bannar .bannar-layer .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #job_search_bannar .bannar-layer .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: -56%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar {
+    flex-direction: column;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by {
+    border: 1px solid #76899C;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.category {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.job-type {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.postal-code {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #job_search_bannar {
+    height: 80vh;
+  }
+  #job_search_bannar .bannar-layer .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #job_search_bannar .bannar-layer .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: -56%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar {
+    flex-direction: column;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by {
+    border: 1px solid #76899C;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.category {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.job-type {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.postal-code {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #job_search_bannar {
+    height: 80vh;
+  }
+  #job_search_bannar .bannar-layer .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #job_search_bannar .bannar-layer .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #job_search_bannar .search-bar-section {
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: -56%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar {
+    flex-direction: column;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by {
+    border: 1px solid #76899C;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.keyword {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.category {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.job-type {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by.postal-code {
+    width: 100%;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .search-by .input .custom-select:focus {
+    box-shadow: none;
+  }
+  #job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job {
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .custom-select {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .custom-select {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .custom-select {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #personal_info .accordion .tab-sections .collapse form .row .col-sm-12 .custom-select {
+    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -4196,6 +4592,137 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 800px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services {
+    margin-top: 50px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    margin: auto;
+  }
+}
 @media screen and (max-width: 767px) {
   #index-page {
     margin-bottom: 100px;
@@ -4446,6 +4973,160 @@
   }
   #index-page section.subscribe .container .row .col-12 .main-section .search-section {
     margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  #index-page {
+    margin-bottom: 100px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: auto;
+    padding-bottom: 39px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header {
+    height: 80px;
+    position: relative;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .header .icon-section .icon img {
+    width: 53px;
+    height: 53px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #1c1c1c;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .short-description {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer {
+    text-align: center;
+  }
+  #index-page section.our-services .container .row .col-sm-12 .service-card .footer a {
+    font-size: 10px;
+    font-family: "Poppin-Medium";
+    text-decoration: none;
+  }
+  #index-page section.cr-dev-and-learning {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  #index-page section.cr-dev-and-learning .title {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  #index-page section.cr-dev-and-learning .subtitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card {
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 45px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image {
+    height: 160px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .image .cr-dev-img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header {
+    height: 70px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .title {
+    font-size: 16px;
+    font-family: "Poppin-Medium";
+    color: #2f3639;
+    text-align: left;
+    line-height: 26px;
+    padding-top: 13px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .header .sub-header .date {
+    font-size: 10px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .body {
+    font-size: 8px;
+    font-family: "Poppin-Light";
+    color: #b6b6b6;
+    line-height: 16px;
+    margin-top: 25px;
+    height: 55px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #index-page section.cr-dev-and-learning .body .container .row .col-sm-12 .cr-dev-card .footer a {
+    font-family: "Poppin-Light";
+    font-size: 8px;
+    color: #0057ff;
+    line-height: 12px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #index-page section.cr-dev-and-learning .footer .read-more .view-all {
+    border: 1px solid #b5b5b5;
+    border-radius: 17px;
+    font-size: 14px;
+    font-family: "Poppin-Regular";
+    color: #2f3639;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #index-page section.how-its-work {
+    margin-bottom: 50px;
+  }
+  #index-page section.how-its-work .container .row .col-12 .title {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .title div {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #index-page section.subscribe .container .row .col-12 .main-section .search-section {
+    width: 300px;
+    margin: auto;
+  }
+  #index-page .after-how-work-hr {
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -4914,6 +5595,110 @@
   #index-page .after-how-work-hr {
     margin-bottom: 40px;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #personal-info .personal-info-sections .section-body .body .left .skills .skill-name {
+    margin-bottom: 10px;
+  }
+  #personal-info .personal-info-sections .section-body .body .left .description {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 414px) {
+  #personal-info .personal-info-sections .section-body .body .left .skills .skill-name {
+    margin-bottom: 10px;
+  }
+  #personal-info .personal-info-sections .section-body .body .left .description {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  #personal-info .personal-info-sections .section-body .body .left .skills .skill-name {
+    margin-bottom: 10px;
+  }
+  #personal-info .personal-info-sections .section-body .body .left .description {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #personal-info .personal-info-sections .section-body .body .left .skills .skill-name {
+    margin-bottom: 10px;
+  }
+  #personal-info .personal-info-sections .section-body .body .left .description {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #browse_job {
+    margin-top: 73px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  #browse_job {
+    margin-top: 72px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #browse_job {
+    margin-top: 67px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #browse_job {
+    margin-top: 63px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #browse_job {
+    margin-top: 57px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #browse_job {
+    margin-top: 54px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #browse_job {
+    margin-top: 52px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #browse_job {
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #browse_job .title-with-filter {
+    flex-direction: column;
+  }
+  #browse_job .title-with-filter .title {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #browse_job .title-with-filter {
+    flex-direction: column;
+  }
+  #browse_job .title-with-filter .title {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #browse_job .title-with-filter {
+    flex-direction: column;
+  }
+  #browse_job .title-with-filter .title {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #browse_job .title-with-filter {
+    flex-direction: column;
+  }
+  #browse_job .title-with-filter .title {
+    margin-bottom: 10px;
   }
 }
 
