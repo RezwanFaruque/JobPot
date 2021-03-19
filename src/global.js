@@ -6,7 +6,7 @@ export const HOST = process.env.VUE_APP_DEVHOST
 
 export const API_HOST = process.env.VUE_APP_API_HOST
   ? process.env.VUE_APP_API_HOST
-  : "http://localhost:8000";
+  : "https://jobpot.io";
 
 
   console.log(API_HOST)
