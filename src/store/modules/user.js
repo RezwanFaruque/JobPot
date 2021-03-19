@@ -6,9 +6,11 @@ import {
 } from "../getter.names";
 import {
   LOGIN,
+  REGISTRATION
 } from "../action.names";
 import {
   LOGIN_ENDPOINT,
+  REGISTRATION_ENDPOINT
 } from "../endpoints";
 import {
   SET_TOKEN,
@@ -39,6 +41,19 @@ export default{
     },
   },
   actions: {
+    async [REGISTRATION]({commit, dispatch}, payload){
+      return new Promise((resolve, reject) => {
+        axios
+          .post(REGISTRATION_ENDPOINT, payload)
+          .then(({ data }) => {
+            resolve(data);
+          })
+          .catch((e) => {
+            console.log(e)
+            reject(e);
+          });
+      })
+    },
     async [LOGIN]({commit}, payload){
       return new Promise((resolve, reject) => {
         axios

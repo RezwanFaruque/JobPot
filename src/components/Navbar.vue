@@ -41,36 +41,30 @@
 </template>
 
 <script>
-// import signup modal component
+import { Component, Vue, Watch } from "vue-property-decorator";
 import SignUpModal from './SingupModal';
 
 // import jquery
 import $ from 'jquery';
 
-export default {
-    name: 'Navbar',
-    components:{
-        SignUpModal,
-    },
-    data:function(){
-        return{
-            show: false,
-        }
-    },
 
-    methods:{
+@Component({
+  name: "Navbar",
+  components: {
+      SignUpModal,
+  }
+})
+export default class Navbar extends Vue {
+  show = false;
 
-        // show login modal
-        showLoginModal(){
-            let element = this.$refs.modal.$el;
-            $(element).modal('show');
+  showLoginModal(){
+    let element = this.$refs.modal.$el;
+    $(element).modal('show');
+  }
 
-        },
-
-        toggleNav(){
-            this.show = !this.show;
-        }
-    }
+  toggleNav(){
+    this.show = !this.show;
+  }
 
 }
 </script>
