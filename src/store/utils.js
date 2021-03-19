@@ -1,0 +1,1 @@
+export const namespaced = (namespace, asset) => `${namespace}/${asset}`;

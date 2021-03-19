@@ -39,6 +39,9 @@
 <script>
 import { Component, Vue, Watch } from "vue-property-decorator";
 import { Action, Getter } from "vuex-class";
+import { namespaced } from "../store/utils";
+import { NS_USER } from "../store/namespace.names";
+
 import {
   LOGIN,
 } from "../store/action.names";
@@ -53,8 +56,8 @@ import {
   }
 })
 export default class Banner extends Vue {
-  @Getter(GET_TOKEN) getToken;
-  @Action(LOGIN) login;
+  @Getter(namespaced(NS_USER, GET_TOKEN)) getToken;
+  @Action(namespaced(NS_USER, LOGIN)) login;
 
   showToken(){
     console.log("---------", this.getToken);

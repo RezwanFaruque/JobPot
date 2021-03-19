@@ -1,3 +1,3 @@
 export const NS_USER = "user";
-export const NS_PUBLIC = "public";
-export const NS_ADMIN = "admin";
+export const NS_EMPLOYEE = "employee";
+export const NS_EMPLOYER = "employer";

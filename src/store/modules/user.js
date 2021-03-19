@@ -18,6 +18,7 @@ import {
 import 'core-js/es/array';
 
 export default{
+  namespaced: true,
   state: {
     user: {
       profile: null,
