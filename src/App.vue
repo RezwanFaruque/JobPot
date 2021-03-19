@@ -7,20 +7,18 @@
 </template>
 
 <script>
+import { Component, Vue, Watch } from "vue-property-decorator";
 import './assets/css/style.css';
 
-export default {
-  name: 'App',
+@Component({
+  name: "App",
   components: {
-    
-  },
-  computed: {
-    // return dynamic layout
-    layout(){
-      return (this.$route.meta.layout);
-    }
   }
-  
+})
+export default class App extends Vue {
+  get layout(){
+    return (this.$route.meta.layout);
+  }  
 }
 </script>
 

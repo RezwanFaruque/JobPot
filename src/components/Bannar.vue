@@ -1,5 +1,4 @@
 <template>
-
     <div id="bannar-section">
         <div class="container">
           <div class="row">
@@ -19,7 +18,7 @@
                    <form>
                       <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <button class="search-banner" type="submit">Search Job</button>
+                        <button @click.prevent="showToken" class="search-banner" type="submit">Search Job</button>
                       </div>
                    </form>
                  </div>
@@ -35,13 +34,42 @@
           </div>
         </div>
     </div>
-  
 </template>
 
 <script>
-export default {
+import { Component, Vue, Watch } from "vue-property-decorator";
+import { Action, Getter } from "vuex-class";
+import {
+  LOGIN,
+} from "../store/action.names";
+import {
+  GET_TOKEN,
+} from "../store/getter.names";
 
-  name: 'Bannar',
+
+@Component({
+  name: "App",
+  components: {
+  }
+})
+export default class Banner extends Vue {
+  @Getter(GET_TOKEN) getToken;
+  @Action(LOGIN) login;
+
+  showToken(){
+    console.log("---------", this.getToken);
+  }
+
+  mounted(){
+    const payload = {
+      email: "admin@gmail.com",
+      password: "nstu1234"
+    }
+    this.login(payload).then((data) => {
+      console.log(data)
+    })
+  }
+
 }
 </script>
 
