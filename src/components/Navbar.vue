@@ -1,74 +1,80 @@
 <template>
-   <div id="section-navbar">
-       <div class="navbar">
-           <nav class="navbar navbar-expand-lg" v-bind:class=" { 'navbarOpen': show }">
-               <div class="container">
-                    <router-link to="/"><img :src="require('../assets/vendor/Images/mainlogo.png')" alt=""></router-link>
-                    <button class="navbar-toggler" type="button" @click="toggleNav" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" v-bind:class="{ 'show': show }">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <router-link to="/browse-job">Browse a Job</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link to="/personal-info">Post A Job</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link to="/">Build/Upload Resume</router-link>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-        
-                            <li class="nav-item spec">
-                                <router-link to="/">Post A Job</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <button @click="showLoginModal">Sign in</button>
-                                <!-- sign up modal -->
-                                <SignUpModal ref="modal"></SignUpModal>
-                                
-                            </li>
-                        </ul>
-                    </div>
-               </div>
-            </nav>
-       </div>
-       
-   </div>
-   
+  <div id="section-navbar">
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg" v-bind:class="{ navbarOpen: show }">
+        <div class="container">
+          <router-link to="/"
+            ><img :src="require('../assets/vendor/Images/mainlogo.png')" alt=""
+          /></router-link>
+          <button
+            class="navbar-toggler"
+            type="button"
+            @click="toggleNav"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            v-bind:class="{ show: show }"
+          >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <router-link to="/browse-job">Browse a Job</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/personal-info">Post A Job</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/">Build/Upload Resume</router-link>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item spec">
+                <router-link to="/">Post A Job</router-link>
+              </li>
+              <li class="nav-item">
+                <button @click="showLoginModal">Sign in</button>
+                <!-- sign up modal -->
+                <SignUpModal ref="modal"></SignUpModal>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
 </template>
 
 <script>
+// import signup modal component
 import { Component, Vue, Watch } from "vue-property-decorator";
-import SignUpModal from './SingupModal';
 
-// import jquery
-import $ from 'jquery';
-
+import SignUpModal from "./SingupModal";
 
 @Component({
   name: "Navbar",
   components: {
-      SignUpModal,
-  }
+    SignUpModal,
+  },
 })
 export default class Navbar extends Vue {
   show = false;
-
-  showLoginModal(){
-    let element = this.$refs.modal.$el;
-    $(element).modal('show');
+  // show login modal
+  showLoginModal() {
+    this.$refs.modal.show();
   }
-
-  toggleNav(){
+  toggleNav() {
     this.show = !this.show;
   }
-
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
