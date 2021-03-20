@@ -182,6 +182,9 @@
   line-height: 27px;
 }
 
+.modal .modal-dialog .modal-content {
+  border: none;
+}
 .modal .modal-dialog .modal-content .modal-header {
   justify-content: center;
   border-bottom: none;
@@ -263,25 +266,32 @@
 }
 .modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row {
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row {
   width: 100%;
-  display: flex;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row .first-name {
-  width: 48%;
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row span {
+  width: 50%;
+}
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row span .first-name {
+  width: 100%;
   padding-right: 5px;
   margin-right: 7px;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row .last-name {
-  width: 48%;
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row.first-row span .last-name {
+  width: 100%;
   padding-left: 5px;
   margin-left: 7px;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row input {
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row span {
+  width: 100%;
+}
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .job-seeker-form form .form-row span input {
   border: 1px solid #DDDDDD;
   height: 50px;
-  border-radius: 3px;
+  border-radius: 0px;
   width: 100%;
   margin-bottom: 20px;
 }
