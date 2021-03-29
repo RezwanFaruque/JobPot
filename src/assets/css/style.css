@@ -326,7 +326,10 @@
   width: 100%;
   margin-bottom: 25px;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row select {
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row span {
+  width: 100%;
+}
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row span select {
   width: 100%;
   border: 1px solid #DDDDDD;
   height: 50px;
@@ -335,12 +338,15 @@
   font-size: 14px;
   padding-left: 10px;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row select option {
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row span select option {
   font-family: "Poppin-Light";
   color: #76899C;
   font-size: 14px;
 }
-.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row input {
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row span {
+  width: 100%;
+}
+.modal .modal-dialog .modal-content .modal-body .signup-form-with-tab div .tab-section .tab-content .tab-pane .card-text .company-form form .form-row span input {
   width: 100%;
   height: 50px;
   border: 1px solid #DDDDDD;

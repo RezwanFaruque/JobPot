@@ -10,7 +10,7 @@
                 margin-left: 15px;
                 margin-right: 15px;
                 .modal-title{
-                    
+
                     font-size: 20px;
                     font-family: 'Poppin-SemiBold';
                     line-height: 20px;
@@ -24,26 +24,26 @@
                 }
 
                 .social-media-signup{
-                        display: flex;
-                        justify-content: center;
-                        width: 100%;
-                        flex-direction: column;
-                        .signup-button{
-                            margin-bottom: 10px;
-                            button{
-                                width: 100%;
-                                background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
-                                border-radius: 3px;
-                                padding-top: 18px;
-                                padding-bottom: 18px;
-                                font-size: 15px;
-                                font-family: 'Poppin-Regular';
-                                line-height: 23px;
-                                color: #FFFFFF!important;
-                                
-                            }
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    flex-direction: column;
+                    .signup-button{
+                        margin-bottom: 10px;
+                        button{
+                            width: 100%;
+                            background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
+                            border-radius: 3px;
+                            padding-top: 18px;
+                            padding-bottom: 18px;
+                            font-size: 15px;
+                            font-family: 'Poppin-Regular';
+                            line-height: 23px;
+                            color: #FFFFFF!important;
+
                         }
                     }
+                }
 
 
             }
@@ -115,7 +115,7 @@
                                                                 padding-left: 5px;
                                                                 margin-left: 7px;
                                                             }
-                                                           
+
                                                         }
                                                         
 
@@ -128,51 +128,53 @@
                                                             border-radius: 0px;
                                                             width: 100%;
                                                             margin-bottom: 20px;
-    
-    
+
+
                                                         }
                                                     }
                                                     
 
-                                                   input::-webkit-input-placeholder{
+                                                    input::-webkit-input-placeholder{
                                                        font-size: 14px;
                                                        font-family: 'Poppin-Light';
                                                        color: #76899C;
                                                        padding-left: 15px;
-                                                    }
+                                                   }
 
-                                                    input:focus{
-                                                        border: 1px solid #DDDDDD;
-                                                        padding-left: 15px;
-                                                    }
-
-
+                                                   input:focus{
+                                                    border: 1px solid #DDDDDD;
+                                                    padding-left: 15px;
                                                 }
 
-                                                .submit-button{
-                                                    width: 100%;
-                                                    margin-top: 10px;
-                                                    .signup{
-                                                        background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
-                                                        border-radius: 3px;
-                                                        width: 100%;
-                                                        padding-top: 15px;
-                                                        padding-bottom: 15px;
-                                                        color: #FFFFFF!important;
-                                                        font-size: 18px;
-                                                        font-family: 'Poppin-SemiBold'!important;
 
-                                                    }
+                                            }
+
+                                            .submit-button{
+                                                width: 100%;
+                                                margin-top: 10px;
+                                                .signup{
+                                                    background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
+                                                    border-radius: 3px;
+                                                    width: 100%;
+                                                    padding-top: 15px;
+                                                    padding-bottom: 15px;
+                                                    color: #FFFFFF!important;
+                                                    font-size: 18px;
+                                                    font-family: 'Poppin-SemiBold'!important;
+
                                                 }
                                             }
                                         }
+                                    }
 
-                                        .company-form{
-                                            margin-top: 25px;
-                                            form{
-                                                .form-row{
+                                    .company-form{
+                                        margin-top: 25px;
+                                        form{
+                                            .form-row{
+                                                width: 100%;
+                                                margin-bottom: 25px;
+                                                span{
                                                     width: 100%;
-                                                    margin-bottom: 25px;
                                                     select{
                                                         width: 100%;
                                                         border: 1px solid #DDDDDD;
@@ -189,51 +191,56 @@
 
                                                         }
                                                     }
+                                                }
+                                                
+                                                span{
+                                                    width: 100%;
                                                     input{
                                                         width: 100%;
                                                         height: 50px;
                                                         border: 1px solid #DDDDDD;
 
                                                     }
-
-                                                    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-                                                            font-family: 'Poppin-Light';
-                                                            color: #76899C;
-                                                            font-size: 14px;
-                                                            padding-left: 10px;
-                                                    }
-                                                    input::-moz-placeholder { /* Firefox 19+ */
-                                                            font-family: 'Poppin-Light';
-                                                            color: #76899C;
-                                                            font-size: 14px;
-                                                            padding-left: 10px;
-                                                    }
-                                                    input:-ms-input-placeholder { /* IE 10+ */
-                                                            font-family: 'Poppin-Light';
-                                                            color: #76899C;
-                                                            font-size: 14px;
-                                                            padding-left: 10px;
-                                                    }
-                                                    input:-moz-placeholder { /* Firefox 18- */
-                                                            font-family: 'Poppin-Light';
-                                                            color: #76899C;
-                                                            font-size: 14px;
-                                                            padding-left: 10px;
-                                                    }
                                                 }
 
-                                                .company-form-submit{
+
+                                                input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                                                    font-family: 'Poppin-Light';
+                                                    color: #76899C;
+                                                    font-size: 14px;
+                                                    padding-left: 10px;
+                                                }
+                                                input::-moz-placeholder { /* Firefox 19+ */
+                                                    font-family: 'Poppin-Light';
+                                                    color: #76899C;
+                                                    font-size: 14px;
+                                                    padding-left: 10px;
+                                                }
+                                                input:-ms-input-placeholder { /* IE 10+ */
+                                                    font-family: 'Poppin-Light';
+                                                    color: #76899C;
+                                                    font-size: 14px;
+                                                    padding-left: 10px;
+                                                }
+                                                input:-moz-placeholder { /* Firefox 18- */
+                                                    font-family: 'Poppin-Light';
+                                                    color: #76899C;
+                                                    font-size: 14px;
+                                                    padding-left: 10px;
+                                                }
+                                            }
+
+                                            .company-form-submit{
+                                                width: 100%;
+                                                .button-submit{
+                                                    background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
+                                                    border-radius: 3px;
+                                                    padding-top: 15px;
+                                                    padding-bottom: 15px;
                                                     width: 100%;
-                                                    .button-submit{
-                                                        background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
-                                                        border-radius: 3px;
-                                                        padding-top: 15px;
-                                                        padding-bottom: 15px;
-                                                        width: 100%;
-                                                        font-family: 'Poppin-SemiBold';
-                                                        color: #FFFFFF!important;
-                                                        font-size: 18px;
-                                                    }
+                                                    font-family: 'Poppin-SemiBold';
+                                                    color: #FFFFFF!important;
+                                                    font-size: 18px;
                                                 }
                                             }
                                         }
@@ -244,36 +251,37 @@
                     }
                 }
             }
+        }
 
-            .modal-footer{
-                border-top: none;
-                margin-left: 15px;
-                margin-right: 15px;
-                margin-bottom: 50px;
-                .footer-signup-modal{
-                    display: flex;
-                    text-align: center;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100%;
-                    .text{
-                        color: #76899C!important;
+        .modal-footer{
+            border-top: none;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 50px;
+            .footer-signup-modal{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                .text{
+                    color: #76899C!important;
+                    font-family: 'Poppin-Light';
+                    font-size: 14px;
+                    line-height: 21px;
+                    padding-right: 7px;
+                }
+                .signinlink{
+                    a{
                         font-family: 'Poppin-Light';
                         font-size: 14px;
                         line-height: 21px;
-                        padding-right: 7px;
-                    }
-                    .signinlink{
-                        a{
-                            font-family: 'Poppin-Light';
-                            font-size: 14px;
-                            line-height: 21px;
-                            color: #3CD7FE!important;
-                        }
+                        color: #3CD7FE!important;
                     }
                 }
             }
         }
     }
 }
-    
+}
+
