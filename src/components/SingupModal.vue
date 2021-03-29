@@ -148,9 +148,13 @@
 
                         <div class="form-row">
                           <select>
-                            <option>Company Type</option>
-                            <option>Company Type One</option>
-                            <option>Company Type Two</option>
+                            <option 
+                              v-for="(cType, idx) in getCompanyType"
+                              :key="'cType' + idx"
+                              :value="cType.id"
+                            >
+                              {{ cType.name }}
+                            </option>
                           </select>
                         </div>
 
@@ -211,7 +215,7 @@ import { Component, Vue, Watch } from "vue-property-decorator";
 import { Action, Getter } from "vuex-class";
 import { namespaced } from "../store/utils";
 import { NS_USER } from "../store/namespace.names";
-import { REGISTRATION ,COMPANYTYPE } from "../store/action.names";
+import { REGISTRATION, COMPANYTYPE } from "../store/action.names";
 import {GET_COMPANY_TYPE} from '../store/getter.names';
 import {
   ValidationProvider,
@@ -228,10 +232,8 @@ import {
 })
 export default class Banner extends Vue {
   @Action(namespaced(NS_USER, REGISTRATION)) registration;
-  @Action(namespaced(NS_USER, COMPANYTYPE)) actioncompanytype;
-  @Getter(namespaced(NS_USER,GET_COMPANY_TYPE)) gettercompanytype;
-
-
+  @Action(namespaced(NS_USER, COMPANYTYPE)) companyType;
+  @Getter(namespaced(NS_USER, GET_COMPANY_TYPE)) getCompanyType;
 
   formData = {
     first_name: "",
@@ -245,8 +247,6 @@ export default class Banner extends Vue {
       type: "",
     },
   };
-
-  //
   
   show() {
     this.$refs.modal.show();
@@ -262,7 +262,6 @@ export default class Banner extends Vue {
       delete this.formData.first_name;
       delete this.formData.last_name;
     }
-    console.log(this.formData);
     this.registration(this.formData)
       .then((data) => {
         console.log(data);
@@ -272,24 +271,19 @@ export default class Banner extends Vue {
       });
   }
 
-  created(){
-    // this.gettercompanytype().then((data)=>{
-      
-    // })
-
-    // this.$store.dispatch("actioncompanytype");
-    
+  mounted(){
+    this.companyType();
   }
 }
 </script>
 
 <style scoped>
-.error {
-  border: 1px solid red !important;
-}
+  .error {
+    border: 1px solid red !important;
+  }
 
-.modal.show .modal-dialog {
-  margin: 0rem auto !important;
-  border: none;
-}
+  .modal.show .modal-dialog {
+    margin: 0rem auto !important;
+    border: none;
+  }
 </style>

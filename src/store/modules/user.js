@@ -21,7 +21,7 @@ import {
   SET_TOKEN_ERROR,
   SET_COMPANY_TYPE,
 } from "../mutation.names";
-import 'core-js/es/array';
+import "core-js/es/array";
 import axios from "axios";
 
 export default{
@@ -31,8 +31,7 @@ export default{
       profile: null,
       token: null
     },
-
-    companytype:[],
+    companytype: [],
     error: false
   },
   getters: {
@@ -87,11 +86,10 @@ export default{
 
     // getallcompanytpe action
     async [COMPANYTYPE]({commit}){
-      return new Promise((resolve,reject)=>{
+      return new Promise((resolve, reject)=>{
         axios.get(COMPANYTYPE_ENDPOINT).then(({data}) => {
-          commit(SET_COMPANY_TYPE,data);
+          commit(SET_COMPANY_TYPE, data);
           resolve(data);
-          console.log(data);
         })
         .catch((e)=>{
           console.log(e);
@@ -119,7 +117,7 @@ export default{
     },
 
     // set companytype to state
-    [SET_COMPANY_TYPE](state,data){
+    [SET_COMPANY_TYPE](state, data){
       state.companytype = data;
     },
   }
