@@ -211,7 +211,8 @@ import { Component, Vue, Watch } from "vue-property-decorator";
 import { Action, Getter } from "vuex-class";
 import { namespaced } from "../store/utils";
 import { NS_USER } from "../store/namespace.names";
-import { REGISTRATION } from "../store/action.names";
+import { REGISTRATION ,COMPANYTYPE } from "../store/action.names";
+import {GET_COMPANY_TYPE} from '../store/getter.names';
 import {
   ValidationProvider,
   ValidationObserver,
@@ -223,9 +224,14 @@ import {
     ValidationProvider,
     ValidationObserver,
   },
+
 })
 export default class Banner extends Vue {
   @Action(namespaced(NS_USER, REGISTRATION)) registration;
+  @Action(namespaced(NS_USER, COMPANYTYPE)) actioncompanytype;
+  @Getter(namespaced(NS_USER,GET_COMPANY_TYPE)) gettercompanytype;
+
+
 
   formData = {
     first_name: "",
@@ -264,6 +270,15 @@ export default class Banner extends Vue {
       .catch((e) => {
         console.log(e);
       });
+  }
+
+  created(){
+    // this.gettercompanytype().then((data)=>{
+      
+    // })
+
+    // this.$store.dispatch("actioncompanytype");
+    
   }
 }
 </script>

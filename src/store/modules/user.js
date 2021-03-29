@@ -2,22 +2,27 @@ import {} from "vuex";
 import {
   GET_PROFILE,
   GET_TOKEN,
-  GET_AUTH_HEADER
+  GET_AUTH_HEADER,
+  GET_COMPANY_TYPE,
 } from "../getter.names";
 import {
   LOGIN,
-  REGISTRATION
+  REGISTRATION,
+  COMPANYTYPE,
 } from "../action.names";
 import {
   LOGIN_ENDPOINT,
-  REGISTRATION_ENDPOINT
+  REGISTRATION_ENDPOINT,
+  COMPANYTYPE_ENDPOINT,
 } from "../endpoints";
 import {
   SET_TOKEN,
   SET_PROFILE,
-  SET_TOKEN_ERROR
+  SET_TOKEN_ERROR,
+  SET_COMPANY_TYPE,
 } from "../mutation.names";
 import 'core-js/es/array';
+import axios from "axios";
 
 export default{
   namespaced: true,
@@ -26,6 +31,8 @@ export default{
       profile: null,
       token: null
     },
+
+    companytype:[],
     error: false
   },
   getters: {
@@ -39,8 +46,13 @@ export default{
       if (state.user.token == null) return {};
       return { Authorization: `Token ${state.user.token}` };
     },
+    [GET_COMPANY_TYPE](state){
+      return state.companytype
+    }
   },
   actions: {
+
+    // registration action
     async [REGISTRATION]({commit, dispatch}, payload){
       return new Promise((resolve, reject) => {
         axios
@@ -54,6 +66,8 @@ export default{
           });
       })
     },
+
+    // login action
     async [LOGIN]({commit}, payload){
       return new Promise((resolve, reject) => {
         axios
@@ -69,7 +83,24 @@ export default{
             reject(e);
           });
       })
+    },
+
+    // getallcompanytpe action
+    async [COMPANYTYPE]({commit}){
+      return new Promise((resolve,reject)=>{
+        axios.get(COMPANYTYPE_ENDPOINT).then(({data}) => {
+          commit(SET_COMPANY_TYPE,data);
+          resolve(data);
+          console.log(data);
+        })
+        .catch((e)=>{
+          console.log(e);
+          reject(e);
+        })
+      })
     }
+
+
   },
   mutations: {
     [SET_TOKEN](state, token) {
@@ -85,6 +116,11 @@ export default{
     },
     [SET_PROFILE](state, data) {
       state.user.profile = data;
+    },
+
+    // set companytype to state
+    [SET_COMPANY_TYPE](state,data){
+      state.companytype = data;
     },
   }
 }
