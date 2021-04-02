@@ -39,7 +39,7 @@
                 <router-link to="/">Post A Job</router-link>
               </li>
               <li class="nav-item">
-                <button @click="showLoginModal">Sign in</button>
+                <button @click="showSignUpModal">Sign in</button>
                 <!-- sign up modal -->
                 <SignUpModal ref="modal"></SignUpModal>
               </li>
@@ -66,7 +66,7 @@ import SignUpModal from "./SingupModal";
 export default class Navbar extends Vue {
   show = false;
   // show login modal
-  showLoginModal() {
+  showSignUpModal() {
     this.$refs.modal.show();
   }
   toggleNav() {

@@ -412,11 +412,13 @@
   line-height: 21px;
   padding-right: 7px;
 }
-.modal .modal-dialog .modal-content .modal-footer .footer-signup-modal .signinlink a {
+.modal .modal-dialog .modal-content .modal-footer .footer-signup-modal .signinlink .open-login-button {
   font-family: "Poppin-Light";
   font-size: 14px;
   line-height: 21px;
   color: #3CD7FE !important;
+  border: none;
+  background: white;
 }
 
 #left-sidebar {
@@ -1451,6 +1453,94 @@
 #job_search_bannar .search-bar-section form .search-bar-bannar .submit-button .find-job:focus {
   border: none;
 }
+#loginmodal .modal-dialog .modal-content .modal-body {
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .header {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2F3639;
+  text-align: center;
+  font-family: "Poppin-SemiBold";
+  padding-bottom: 20px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .email {
+  margin-bottom: 10px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .email span .email {
+  border: none;
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  height: 50px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .email span input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Poppin-Light";
+  color: #76899C;
+  padding-left: 15px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .email span input:focus {
+  border: 1px solid #DDDDDD;
+  padding-left: 15px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .password {
+  margin-bottom: 10px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .password span .password {
+  border: none;
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  height: 50px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .password span input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Poppin-Light";
+  color: #76899C;
+  padding-left: 15px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .password span input:focus {
+  border: 1px solid #DDDDDD;
+  padding-left: 15px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .password span .forget-password {
+  display: flex;
+  justify-content: flex-end;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .body .main-login-form span form .login-submit button {
+  width: 100%;
+  height: 50px;
+  background: transparent linear-gradient(90deg, #2B9CFD 0%, #41EBFE 100%) 0% 0% no-repeat padding-box;
+  font-family: "Poppin-SemiBold";
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .footer {
+  margin-top: 45px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .footer .footer-content .footer-content-text {
+  font-family: "Poppin-Light";
+  font-size: 17px;
+  color: #76899C;
+  line-height: 26px;
+}
+#loginmodal .modal-dialog .modal-content .modal-body .footer .footer-content .create-account-button {
+  border: none;
+  background: white;
+  font-family: "Poppin-Light";
+  color: #3CD7FE;
+  font-size: 17px;
+}
+
 #index-page {
   margin-bottom: 100px;
 }

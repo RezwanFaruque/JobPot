@@ -272,11 +272,13 @@
                     padding-right: 7px;
                 }
                 .signinlink{
-                    a{
+                    .open-login-button{
                         font-family: 'Poppin-Light';
                         font-size: 14px;
                         line-height: 21px;
                         color: #3CD7FE!important;
+                        border: none;
+                        background: white;
                     }
                 }
             }
