@@ -38,7 +38,10 @@
               <li class="nav-item spec">
                 <router-link to="/">Post A Job</router-link>
               </li>
-              <li class="nav-item">
+              <li v-if="getprofile" class="nav-item">
+                {{getprofile.first_name}}
+              </li>
+              <li v-else>
                 <button @click="showSignUpModal">Sign in</button>
                 <!-- sign up modal -->
                 <SignUpModal ref="modal"></SignUpModal>
@@ -56,6 +59,10 @@
 import { Component, Vue, Watch } from "vue-property-decorator";
 
 import SignUpModal from "./SingupModal";
+import { Action, Getter } from "vuex-class";
+import { namespaced } from "../store/utils";
+import { NS_USER } from "../store/namespace.names";
+import { GET_TOKEN, GET_PROFILE } from "../store/getter.names";
 
 @Component({
   name: "Navbar",
@@ -64,6 +71,9 @@ import SignUpModal from "./SingupModal";
   },
 })
 export default class Navbar extends Vue {
+  @Getter(namespaced(NS_USER, GET_PROFILE)) getprofile;
+  @Getter(namespaced(NS_USER, GET_TOKEN)) gettoken;
+
   show = false;
   // show login modal
   showSignUpModal() {
@@ -72,9 +82,12 @@ export default class Navbar extends Vue {
   toggleNav() {
     this.show = !this.show;
   }
+
+  mounted() {
+    
+  }
 }
 </script>
 
 <style scoped>
-
 </style>

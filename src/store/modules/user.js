@@ -75,6 +75,7 @@ export default{
             commit(SET_TOKEN, data.token);
             commit(SET_PROFILE, data.user);
             resolve(data);
+            
           })
           .catch((e) => {
             commit(SET_TOKEN_ERROR);

@@ -59,18 +59,18 @@ export default class Banner extends Vue {
   @Getter(namespaced(NS_USER, GET_TOKEN)) getToken;
   @Action(namespaced(NS_USER, LOGIN)) login;
 
-  showToken(){
-    console.log("---------", this.getToken);
-  }
+  // showToken(){
+  //   console.log("---------", this.getToken);
+  // }
 
   mounted(){
-    const payload = {
-      email: "admin@gmail.com",
-      password: "nstu1234"
-    }
-    this.login(payload).then((data) => {
-      console.log(data)
-    })
+    // const payload = {
+    //   email: "admin@gmail.com",
+    //   password: "nstu1234"
+    // }
+    // this.login(payload).then((data) => {
+    //   console.log(data)
+    // })
   }
 
 }

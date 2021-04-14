@@ -6,7 +6,7 @@
         <div class="body">
             <div class="main-login-form">
                 <ValidationObserver v-slot="{ invalid }">
-                    <form>
+                    <form @submit.prevent="handleLogin" >
                         <div class="email">
                             <ValidationProvider
                             rules="required"
@@ -72,6 +72,11 @@
 <script>
 
     import { Component, Vue, Watch } from "vue-property-decorator";
+    import { Action, Getter } from "vuex-class";
+    import { namespaced } from "../store/utils";
+    import { NS_USER } from "../store/namespace.names";
+    import { LOGIN } from "../store/action.names";
+    import { GET_TOKEN,GET_PROFILE } from "../store/getter.names";
     import {
         ValidationProvider,
         ValidationObserver,
@@ -86,12 +91,35 @@
     })
     export default class LoginModal extends Vue {
 
+        @Getter(namespaced(NS_USER, GET_TOKEN)) getToken;
+        @Getter(namespaced(NS_USER, GET_PROFILE)) getprofile;
+        @Action(namespaced(NS_USER, LOGIN)) login;
+
 
         formData = {
           email: "",
           password: "",
 
       };
+
+
+      // login handle
+
+      handleLogin(){
+        
+        this.login(this.formData)
+        .then((data)=>{
+            
+            
+            this.$refs.loginmodal.hide();
+            this.$router.push('/personal-info');
+            
+        })
+        .catch((e)=>{
+            console.log(e);
+
+        })
+      }
 
         // show log in modal 
         show(){
