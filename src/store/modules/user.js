@@ -9,11 +9,14 @@ import {
   LOGIN,
   REGISTRATION,
   COMPANYTYPE,
+  PROFILE,
+  GET_TOKEN_FROM_LOCAL_STORE,
 } from "../action.names";
 import {
   LOGIN_ENDPOINT,
   REGISTRATION_ENDPOINT,
   COMPANYTYPE_ENDPOINT,
+  PROFILE_ENDPOINT
 } from "../endpoints";
 import {
   SET_TOKEN,
@@ -75,7 +78,6 @@ export default{
             commit(SET_TOKEN, data.token);
             commit(SET_PROFILE, data.user);
             resolve(data);
-            
           })
           .catch((e) => {
             commit(SET_TOKEN_ERROR);
@@ -93,13 +95,44 @@ export default{
           resolve(data);
         })
         .catch((e)=>{
+          commit(SET_TOKEN_ERROR);
           console.log(e);
           reject(e);
         })
       })
+    },
+
+    async [PROFILE]({commit, getters}){
+      return new Promise((resolve, reject)=>{
+        axios.get(PROFILE_ENDPOINT, {
+          headers: {
+            ...getters[GET_AUTH_HEADER],
+          },
+        }).then(({data}) => {
+          commit(SET_PROFILE, data.user);
+          resolve(data);
+        })
+        .catch((e)=>{
+          console.log("SSSSSSSS")
+          commit(SET_TOKEN_ERROR);
+          console.log(e);
+          reject(e);
+        })
+      })
+    },
+
+    async [GET_TOKEN_FROM_LOCAL_STORE]({commit, dispatch}){
+      return new Promise((resolve, reject)=>{
+        const localToken = localStorage.getItem("JOBPOT_TOKEN");
+        if(localToken != null) {
+          commit(SET_TOKEN, localToken);
+          dispatch(PROFILE);
+          resolve();
+        } else {
+          // reject();
+        }
+      })
     }
-
-
   },
   mutations: {
     [SET_TOKEN](state, token) {
@@ -108,6 +141,7 @@ export default{
       localStorage.setItem("JOBPOT_TOKEN", token);
     },
     [SET_TOKEN_ERROR](state) {
+      console.log("SET_TOKEN ERROR")
       state.user.token = null;
       state.user.profile = null;
       state.error = true;

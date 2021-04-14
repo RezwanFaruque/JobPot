@@ -1,3 +1,6 @@
 export const LOGIN = "login";
 export const REGISTRATION = "registration";
 export const COMPANYTYPE = "companyType";
+export const PROFILE = "profile";
+
+export const GET_TOKEN_FROM_LOCAL_STORE = "getTokenFromLocalStore";
