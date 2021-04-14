@@ -228,7 +228,6 @@ import {
     ValidationProvider,
     ValidationObserver,
   },
-
 })
 export default class Banner extends Vue {
   @Action(namespaced(NS_USER, REGISTRATION)) registration;
