@@ -1,4 +1,5 @@
 export const LOGIN = "login";
+export const LOGOUT = "logout";
 export const REGISTRATION = "registration";
 export const COMPANYTYPE = "companyType";
 export const PROFILE = "profile";

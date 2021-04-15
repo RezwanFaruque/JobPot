@@ -48,6 +48,51 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info {
+  display: flex;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .jobs {
+  margin-right: 10px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .jobs a img {
+  width: 20px;
+  height: 15px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .notification {
+  margin-right: 10px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile .button .button-open-section-profile {
+  position: absolute;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  right: 5%;
+  z-index: 99;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile .button .button-open-section-profile .section {
+  display: flex;
+  margin-bottom: 20px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile .button .button-open-section-profile .section .icon {
+  margin-right: 7px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile .button .button-open-section-profile .section .icon img {
+  width: 15px;
+  height: 15px;
+}
+#section-navbar .navbar nav .collapse ul li .loggedin-profile-info .profile .button .button-open-section-profile .section .link a {
+  font-size: 14px;
+  font-family: "Poppin-Regular";
+  color: #2F3639;
+  line-height: 21px;
+}
 #section-navbar .navbar nav .collapse ul li.spec a {
   color: #277F6A;
 }

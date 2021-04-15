@@ -109,10 +109,9 @@
         
         this.login(this.formData)
         .then((data)=>{
-            
-            
+
             this.$refs.loginmodal.hide();
-            this.$router.push('/personal-info');
+            // this.$router.push("/personal-info");
             
         })
         .catch((e)=>{
