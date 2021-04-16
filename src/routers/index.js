@@ -14,4 +14,20 @@ const router = new VueRouter({
     }
 })
 
+// cheking authenticate middleware for going to specific rotues
+router.beforeEach((to,from ,next)=>{
+    if(to.meta.requiresAuth){
+        if(localStorage.getItem("JOBPOT_TOKEN") == null){
+            next({
+                name: "index",
+            });
+            
+        }else{
+            next();
+        }
+    }else{
+        next();
+    }
+});
+
 export default router;

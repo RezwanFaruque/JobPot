@@ -14,7 +14,7 @@ import Help from '../Pages/Help.vue';
 
 
 // creating routes for every page
-export default [
+const routes =  [
     {
         path: "/",
         name: "index",
@@ -30,9 +30,10 @@ export default [
         name: "personalinfo",
         meta: {
             layout: "default-layout",
+            requiresAuth : true,
         },
         component: PersonalInfo,
-
+       
     },
 
     {
@@ -128,3 +129,7 @@ export default [
         component: Help,
     }
 ]
+
+
+
+export default routes;

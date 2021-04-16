@@ -152,7 +152,7 @@
                                 <input
                                   :class="{
                                     'company-name': true,
-                                    error: errors.length > 0,
+                                    error: errors.length? error.lenght : '' > 0,
                                   }"
                                   type="text"
                                   placeholder="Company Name"

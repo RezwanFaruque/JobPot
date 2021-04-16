@@ -9,17 +9,17 @@
           <div class="image-section">
             <img
               class="profile-picture"
-              src="../assets/vendor/Images/personal-info-profile.png"
+              :src="imagedata"
               alt=""
               srcset=""
             />
             <div class="image-upload-button">
-              <input type="file" ref="file" style="display: none" />
+              <input type="file" ref="file" @change="uploadProfileImage" style="display: none" />
               <i @click.prevent="$refs.file.click()" class="fas fa-plus"></i>
             </div>
           </div>
           <div class="info-section">
-            <div class="name">Md. Jane Alam</div>
+            <div class="name">{{userprofile.full_name}}</div>
             <div class="designation">UI/UX Designer</div>
             <div class="loacation">Maijdi 3814, Noakhali, Bangaldesh</div>
           </div>
@@ -39,7 +39,7 @@
             <div class="icon">
               <i class="fas fa-envelope"></i>
             </div>
-            <div class="text">adnannstu@gmail.com</div>
+            <div class="text">{{userprofile.email}}</div>
           </div>
           <hr />
 
@@ -47,7 +47,7 @@
             <div class="icon">
               <i class="fas fa-phone-square-alt"></i>
             </div>
-            <div class="text">(531)676-3007</div>
+            <div class="text">{{userprofile.phone}}</div>
           </div>
           <hr />
           <div class="info">
@@ -151,8 +151,48 @@
 </template>
 
 <script>
-export default {
+
+import { Component, Vue, Watch } from "vue-property-decorator";
+import { Action, Getter } from "vuex-class";
+import { namespaced } from "../store/utils";
+import { NS_USER } from "../store/namespace.names";
+import { GET_PROFILE } from "../store/getter.names";
+import defaultImage from '../assets/vendor/Images/personal-info-profile.png';
+
+@Component({
   name: "PersonalInfo",
+
+})
+
+export default class PersonalInfo extends Vue {
+
+  @Getter(namespaced(NS_USER,GET_PROFILE)) userprofile;
+
+
+  imagedata = defaultImage;
+  // file upload function 
+  uploadProfileImage(event){
+    const file = event.target.files[0];
+    if(file != null){
+      let render = new FileReader();
+      render.onload = (event)=>{
+         this.imagedata = event.target.result;
+      }
+      render.readAsDataURL(file);
+    }else{
+      this.imagedata = defaultImage;
+    }
+    
+  }
+  mounted(){
+
+    if(this.userprofile.pp == null){
+      this.imagedata = defaultImage;
+    }else{
+      this.imagedata = this.userprofile.pp;
+    }
+    
+  }
 };
 </script>
 

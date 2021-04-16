@@ -28,7 +28,7 @@
                 <router-link to="/browse-job">Browse a Job</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/personal-info">Post A Job</router-link>
+                <router-link  to="/personal-info">Post A Job</router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/">Build/Upload Resume</router-link>
@@ -98,7 +98,7 @@
                             />
                           </div>
                           <div class="link">
-                            <router-link to="/">Profile Details</router-link>
+                            <router-link to="/personal-info">Profile Details</router-link>
                           </div>
                         </div>
                         <div class="section">
@@ -169,7 +169,7 @@
                             />
                           </div>
                           <div class="link">
-                            <router-link to="/">Blog</router-link>
+                            <router-link to="/our-blog">Blog</router-link>
                           </div>
                         </div>
                         <div class="section">
@@ -247,6 +247,7 @@ export default class Navbar extends Vue {
     this.profile_details = false;
     
   }
+
 
   mounted() {
     console.log(this.getprofile);
