@@ -25,15 +25,15 @@ export default class App extends Vue {
   @Getter(namespaced(NS_USER, GET_TOKEN)) token;
   @Mutation(namespaced(NS_USER, SET_TOKEN_ERROR)) setTokenError;
 
-  @Watch("token")
-  hadleTokenChange(val, oldVal) {
-    if (val != oldVal) {
-      if (val == null) {
-        this.setTokenError();
-        this.$router.push("/");
-      }
-    }
-  }
+  // @Watch("token")
+  // hadleTokenChange(val, oldVal) {
+  //   if (val != oldVal) {
+  //     if (val == null) {
+  //       this.setTokenError();
+  //       this.$router.push("/");
+  //     }
+  //   }
+  // }
 
   get layout(){
     return (this.$route.meta.layout);

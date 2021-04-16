@@ -226,7 +226,7 @@
                             <div class="form-row">
                               <ValidationProvider
                                 rules="required"
-                                v-slot="{ error }"
+                                v-slot="{ errors }"
                               >
                                 <input
                                   :class="{
