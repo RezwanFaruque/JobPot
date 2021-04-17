@@ -22,7 +22,7 @@ const routes =  [
             layout: "guest-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                   
                 ]
             }
@@ -39,7 +39,7 @@ const routes =  [
             requiresAuth : true,
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
@@ -55,7 +55,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                   
                 ]
             }
@@ -70,7 +70,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
@@ -85,7 +85,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
@@ -100,7 +100,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                   
                 ]
             }
@@ -115,7 +115,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                   
                 ]
             }
@@ -130,7 +130,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                   
                 ]
             }
@@ -145,7 +145,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
@@ -161,7 +161,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
@@ -177,7 +177,7 @@ const routes =  [
             layout: "job-search-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                 
                 ]
             }
@@ -193,7 +193,7 @@ const routes =  [
             layout: "default-layout",
             progress: {
                 func: [
-                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
                  
                 ]
             }
