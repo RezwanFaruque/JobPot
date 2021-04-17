@@ -20,6 +20,12 @@ const routes =  [
         name: "index",
         meta: {
             layout: "guest-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  
+                ]
+            }
         },
         component: IndexPage,
 
@@ -31,6 +37,12 @@ const routes =  [
         meta: {
             layout: "default-layout",
             requiresAuth : true,
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: PersonalInfo,
        
@@ -41,6 +53,12 @@ const routes =  [
         name: "appliedjob",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  
+                ]
+            }
         },
         component: AppliedJob,
 
@@ -50,6 +68,12 @@ const routes =  [
         name: "ourblog",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: OurBlog,
 
@@ -59,6 +83,12 @@ const routes =  [
         name: "saveforlater",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: SaveForLater,
 
@@ -68,6 +98,12 @@ const routes =  [
         name: "blog/details",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  
+                ]
+            }
         },
         component: BlogDetails,
 
@@ -77,6 +113,12 @@ const routes =  [
         name: "changepassword",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  
+                ]
+            }
         },
         component: ChangePassword,
 
@@ -86,6 +128,12 @@ const routes =  [
         name: "suggestedjob",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                  
+                ]
+            }
         },
         component: SuggestedJob,
 
@@ -95,6 +143,12 @@ const routes =  [
         name: "editresume",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: EditResume,
 
@@ -105,6 +159,12 @@ const routes =  [
         name: "uploadresume",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: UploadResume,
 
@@ -115,6 +175,12 @@ const routes =  [
         name: "browsejob",
         meta: {
             layout: "job-search-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                
+                ]
+            }
         },
         component: BrowseJob,
 
@@ -125,6 +191,12 @@ const routes =  [
         name: "help",
         meta: {
             layout: "default-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#ffb000'},
+                 
+                ]
+            }
         },
         component: Help,
     }

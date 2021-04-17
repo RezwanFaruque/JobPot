@@ -4,6 +4,23 @@ import router from './routers/index';
 import store from "./store";
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import VueProgressBar  from 'vue-progressbar';
+
+// options of vue progressbar
+const options = {
+  color: '#085aa0',
+  failedColor: '#085aa0',
+  thickness: '2px',
+  transition: {
+    speed: '1s',
+    opacity: '0.3s',
+    termination: 300
+  },
+  autoRevert: true,
+  location: 'top',
+  inverse: false
+}
+
 import axios from 'axios'
 
 // loading bootstrap
@@ -29,6 +46,7 @@ import { GET_TOKEN } from "./store/getter.names";
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(VueProgressBar, options);
 
 window.axios = axios;
 
