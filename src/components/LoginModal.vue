@@ -106,12 +106,13 @@
       // login handle
 
       handleLogin(){
-        
+        this.$Progress.start();
         this.login(this.formData)
         .then((data)=>{
 
             this.$refs.loginmodal.hide();
-            // this.$router.push("/personal-info");
+            this.$router.push('/personal-info');
+            this.$Progress.finish();
             
         })
         .catch((e)=>{

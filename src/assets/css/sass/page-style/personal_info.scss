@@ -207,18 +207,35 @@
               line-height: 24px;
               font-family: "Roboto-Medium";
               color: #2f3639;
+              input{
+                margin-bottom: 2px;
+                width: 200px;
+                
+               
+              }
             }
             .designation {
               font-size: 13px;
               line-height: 15px;
               font-family: "Roboto-Medium";
               color: #2f3639;
+              input{
+                margin-bottom: 2px;
+                width: 200px;
+                
+              }
             }
-            .location {
+            .loacation {
               font-size: 10px;
               line-height: 13px;
               font-family: "Roboto-Regular";
               color: #2f3639;
+              input{
+                margin-bottom: 2px;
+                width: 200px;
+               
+
+              }
             }
           }
         }

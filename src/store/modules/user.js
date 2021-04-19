@@ -11,17 +11,20 @@ import {
   REGISTRATION,
   COMPANYTYPE,
   PROFILE,
+  PROFILE_DETAILS,
   GET_TOKEN_FROM_LOCAL_STORE,
 } from "../action.names";
 import {
   LOGIN_ENDPOINT,
   REGISTRATION_ENDPOINT,
   COMPANYTYPE_ENDPOINT,
-  PROFILE_ENDPOINT
+  PROFILE_ENDPOINT,
+  PROFILE_UPDATE_ENDPOINT,
 } from "../endpoints";
 import {
   SET_TOKEN,
   SET_PROFILE,
+  SET_USER_DETAILS,
   REMOVE_TOKEN,
   REMOVE_PROFILE,
   SET_TOKEN_ERROR,
@@ -82,6 +85,7 @@ export default{
             commit(SET_TOKEN, data.token);
             commit(SET_PROFILE, data.user);
             resolve(data);
+            
           })
           .catch((e) => {
             commit(SET_TOKEN_ERROR);
@@ -100,6 +104,7 @@ export default{
           commit(REMOVE_TOKEN);
           commit(REMOVE_PROFILE);
           resolve();
+          
         }
       })
       
@@ -140,6 +145,24 @@ export default{
       })
     },
 
+    async [PROFILE_DETAILS]({commit,getters}){
+      return new Promise((resolve,reject)=>{
+        axios.get(PROFILE_UPDATE_ENDPOINT,{
+          headers: {
+            ...getters[GET_AUTH_HEADER],
+          },
+        }).then(({data})=>{
+          commit(SET_USER_DETAILS);
+          resolve(data);
+          console.log(data);
+        })
+        .catch((e)=>{
+          
+          reject(e);
+        })
+      })
+    },
+
     async [GET_TOKEN_FROM_LOCAL_STORE]({commit, dispatch}){
       return new Promise((resolve, reject)=>{
         const localToken = localStorage.getItem("JOBPOT_TOKEN");
@@ -162,7 +185,7 @@ export default{
 
     [REMOVE_TOKEN](state){
       state.user.token = null;
-      localStorage.setItem("JOBPOT_TOKEN",null);
+      localStorage.removeItem("JOBPOT_TOKEN");
     },
 
     [REMOVE_PROFILE](state){
@@ -180,6 +203,10 @@ export default{
 
 
     [SET_PROFILE](state, data) {
+      state.user.profile = data;
+    },
+
+    [SET_USER_DETAILS](state,data){
       state.user.profile = data;
     },
 

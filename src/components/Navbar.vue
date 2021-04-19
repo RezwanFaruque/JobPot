@@ -243,9 +243,12 @@ export default class Navbar extends Vue {
 
   // user signout
   signOut() {
-    
+    this.$Progress.start();
     this.logout();
     this.profile_details = false;
+    this.$router.push('/');
+    this.$Progress.finish();
+    
     
   }
 

@@ -44,7 +44,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -79,7 +81,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -114,7 +118,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -149,7 +155,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -184,7 +192,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -219,7 +229,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -254,7 +266,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -289,7 +303,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -324,7 +340,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -359,7 +377,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -394,7 +414,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -429,7 +451,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -464,7 +488,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -499,7 +525,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -534,7 +562,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -569,7 +599,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -604,7 +636,9 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -639,14 +673,22 @@
               <div class="footer">
                 <div class="buttons">
                   <button class="apply-now-button">Apply Now</button>
-                  <button class="love-jobs-button"><i class="far fa-heart"></i></button>
+                  <button class="love-jobs-button">
+                    <i class="far fa-heart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12">
             <div>
-                This is pagination component
+              <PaginationComponent
+                :totalPages="11"
+                :total="113"
+                :perPage="10"
+                :currentPage="currentPage"
+                @pagechanged="onPageChange"
+              />
             </div>
           </div>
         </div>
@@ -656,20 +698,30 @@
 </template>
 
 <script>
-export default {
+import { Component, Vue, Watch } from "vue-property-decorator";
+import PaginationComponent from "../components/PaginationComponent";
+
+@Component({
   name: "BrowseJob",
-  data: function () {
-    return {
-      sortby: null,
-      sortbyoptions: [
-        { value: null, text: "Sort By:Newest Post" },
-        { value: "Oldest", text: "Oldest" },
-        { value: "Lowest Salary", text: "Lowest Salary" },
-        { value: "Most Applied", text: "Most Applied" },
-        { value: "Less Applied", text: "Less Applied" },
-      ],
-    };
+  components: {
+    PaginationComponent,
   },
-};
+})
+export default class BrowseJob extends Vue {
+  currentPage = 1;
+
+  onPageChange(page) {
+    this.currentPage = page;
+  }
+
+  sortby = null;
+  sortbyoptions = [
+    { value: null, text: "Sort By:Newest Post" },
+    { value: "Oldest", text: "Oldest" },
+    { value: "Lowest Salary", text: "Lowest Salary" },
+    { value: "Most Applied", text: "Most Applied" },
+    { value: "Less Applied", text: "Less Applied" },
+  ];
+}
 </script>
 

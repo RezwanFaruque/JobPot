@@ -4,3 +4,4 @@ export const REMOVE_TOKEN = "removeToken";
 export const REMOVE_PROFILE = "removeProfile";
 export const SET_TOKEN_ERROR = "setTokenError";
 export const SET_COMPANY_TYPE = "setCompanyType";
+export const SET_USER_DETAILS = "setUserDetails";

@@ -1586,6 +1586,27 @@
   font-size: 17px;
 }
 
+#paginations {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+#paginations li {
+  margin-right: 20px;
+  background-color: white;
+}
+#paginations li button {
+  border: 1px solid #277F6A;
+  background-color: white;
+  font-size: 14px;
+  font-family: "Poppin-Medium";
+  color: #277F6A;
+}
+#paginations li button.active {
+  background-color: #277F6A;
+  color: white;
+}
+
 #index-page {
   margin-bottom: 100px;
 }
@@ -1987,17 +2008,29 @@
   font-family: "Roboto-Medium";
   color: #2f3639;
 }
+#personal-info .personal-info-sections .section-body.about-me .left .info-section .name input {
+  margin-bottom: 2px;
+  width: 200px;
+}
 #personal-info .personal-info-sections .section-body.about-me .left .info-section .designation {
   font-size: 13px;
   line-height: 15px;
   font-family: "Roboto-Medium";
   color: #2f3639;
 }
-#personal-info .personal-info-sections .section-body.about-me .left .info-section .location {
+#personal-info .personal-info-sections .section-body.about-me .left .info-section .designation input {
+  margin-bottom: 2px;
+  width: 200px;
+}
+#personal-info .personal-info-sections .section-body.about-me .left .info-section .loacation {
   font-size: 10px;
   line-height: 13px;
   font-family: "Roboto-Regular";
   color: #2f3639;
+}
+#personal-info .personal-info-sections .section-body.about-me .left .info-section .loacation input {
+  margin-bottom: 2px;
+  width: 200px;
 }
 
 #appliedjob {
