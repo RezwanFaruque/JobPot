@@ -712,6 +712,7 @@ export default class BrowseJob extends Vue {
 
   onPageChange(page) {
     this.currentPage = page;
+    this.$router.push({query: {page: page}})
   }
 
   sortby = null;

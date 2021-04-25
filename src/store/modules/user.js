@@ -11,7 +11,7 @@ import {
   REGISTRATION,
   COMPANYTYPE,
   PROFILE,
-  PROFILE_DETAILS,
+  PROFILE_UPDATE,
   GET_TOKEN_FROM_LOCAL_STORE,
 } from "../action.names";
 import {
@@ -24,7 +24,7 @@ import {
 import {
   SET_TOKEN,
   SET_PROFILE,
-  SET_USER_DETAILS,
+  UPDATE_PROFILE,
   REMOVE_TOKEN,
   REMOVE_PROFILE,
   SET_TOKEN_ERROR,
@@ -145,14 +145,16 @@ export default{
       })
     },
 
-    async [PROFILE_DETAILS]({commit,getters}){
+    async [PROFILE_UPDATE]({commit,getters,state,payload}){
       return new Promise((resolve,reject)=>{
-        axios.get(PROFILE_UPDATE_ENDPOINT,{
+        axios.patch(PROFILE_UPDATE_ENDPOINT+state.user.profile.id,{
+          payload,
           headers: {
             ...getters[GET_AUTH_HEADER],
           },
+          
         }).then(({data})=>{
-          commit(SET_USER_DETAILS);
+          commit(UPDATE_PROFILE);
           resolve(data);
           console.log(data);
         })
@@ -206,9 +208,11 @@ export default{
       state.user.profile = data;
     },
 
-    [SET_USER_DETAILS](state,data){
+    [UPDATE_PROFILE](state,data){
       state.user.profile = data;
     },
+
+    
 
     // set companytype to state
     [SET_COMPANY_TYPE](state, data){

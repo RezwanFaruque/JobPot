@@ -4,68 +4,104 @@
     <hr />
     <div class="personal-info-sections">
       <div class="title">About Me</div>
-      <div class="section-body without-header about-me">
-        <div class="left">
-          <div class="image-section">
-            <img class="profile-picture" :src="imagedata" alt="" srcset="" />
-            <div class="image-upload-button">
-              <input
-                type="file"
-                ref="file"
-                @change="uploadProfileImage"
-                style="display: none"
-              />
-              <i @click.prevent="$refs.file.click()" class="fas fa-plus"></i>
-            </div>
-          </div>
-
-          <div class="info-section">
-            <form>
-              <div class="name">
-                <div v-if="editbasicinfo == true">
-                  <input type="text" v-model="full_name" />
+      <ValidationObserver v-slot="{ invalid }">
+        <form @submit.prevent="updateProfileInfo">
+          <div class="section-body without-header about-me">
+            <div class="left">
+              <div class="image-section">
+                <img
+                  class="profile-picture"
+                  :src="formData.imagedata"
+                  alt=""
+                  srcset=""
+                />
+                <div class="image-upload-button">
+                  <input
+                    type="file"
+                    ref="file"
+                    @change="uploadProfileImage"
+                    style="display: none"
+                  />
+                  <i
+                    @click.prevent="$refs.file.click()"
+                    class="fas fa-plus"
+                  ></i>
                 </div>
-                <div v-else>
-                  <div>
-                    {{ userprofile.full_name }}
+              </div>
+
+              <div class="info-section">
+                <div class="name">
+                  <div v-if="editbasicinfo == true">
+                    <ValidationProvider rules="required" v-slot="{ errors }">
+                      <input
+                        :class="{
+                          error: errors.length > 0,
+                        }"
+                        type="text"
+                        v-model="formData.full_name"
+                      />
+                    </ValidationProvider>
+                  </div>
+                  <div v-else>
+                    <div>
+                      {{ userprofile.full_name }}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="designation">
-                <div v-if="editbasicinfo == true">
-                  <input v-model="designation" type="text" />
+                <div class="designation">
+                  <div v-if="editbasicinfo == true">
+                    <ValidationProvider rules="required" v-slot="{ errors }">
+                      <input
+                        :class="{
+                          error: errors.length > 0,
+                        }"
+                        type="text"
+                        v-model="formData.designation"
+                      />
+                    </ValidationProvider>
+                    
+                  </div>
+                  <div v-else>Ui/Ux Designer</div>
                 </div>
-                <div v-else>Ui/Ux Designer</div>
-              </div>
-              <div class="loacation">
-                <div v-if="editbasicinfo == true">
-                  <input v-model="location" type="text" />
+                <div class="loacation">
+                  <div v-if="editbasicinfo == true">
+                    <ValidationProvider rules="required" v-slot="{ errors }">
+                      <input
+                        :class="{
+                          error: errors.length > 0,
+                        }"
+                        type="text"
+                        v-model="formData.location"
+                      />
+                    </ValidationProvider>
+                    
+                  </div>
+                  <div v-else>Choubaria Bhangura Pabna</div>
                 </div>
-                <div v-else>Choubaria Bhangura Pabna</div>
               </div>
-            </form>
+            </div>
+            <div class="right">
+              <div v-if="editbasicinfo == true">
+                <button :disabled="invalid" class="edit-persoanl-info-page">Update</button>
+                <button
+                  @click="editbasicinfo = !editbasicinfo"
+                  class="edit-persoanl-info-page"
+                >
+                  Cancel
+                </button>
+              </div>
+              <div v-else>
+                <button
+                  @click="editbasicinfo = !editbasicinfo"
+                  class="edit-persoanl-info-page"
+                >
+                  Edit
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="right">
-          <div v-if="editbasicinfo == true">
-            <button class="edit-persoanl-info-page">Update</button>
-            <button
-              @click="editbasicinfo = !editbasicinfo"
-              class="edit-persoanl-info-page"
-            >
-              Cancel
-            </button>
-          </div>
-          <div v-else>
-            <button
-              @click="editbasicinfo = !editbasicinfo"
-              class="edit-persoanl-info-page"
-            >
-              Edit
-            </button>
-          </div>
-        </div>
-      </div>
+        </form>
+      </ValidationObserver>
     </div>
 
     <!-- contact information -->
@@ -192,52 +228,75 @@ import { Action, Getter } from "vuex-class";
 import { namespaced } from "../store/utils";
 import { NS_USER } from "../store/namespace.names";
 import { GET_PROFILE } from "../store/getter.names";
-import { PROFILE_DETAILS } from "../store/action.names";
+import {
+        ValidationProvider,
+        ValidationObserver,
+    } from "vee-validate/dist/vee-validate.full.esm";
+import { PROFILE_UPDATE } from "../store/action.names";
 
 import defaultImage from "../assets/vendor/Images/personal-info-profile.png";
 
 @Component({
   name: "PersonalInfo",
+  components:{
+    ValidationObserver,
+    ValidationProvider,
+  },
+ 
 })
 export default class PersonalInfo extends Vue {
   @Getter(namespaced(NS_USER, GET_PROFILE)) userprofile;
-  @Action(namespaced(NS_USER, PROFILE_DETAILS)) profiledetails;
+  @Action(namespaced(NS_USER, PROFILE_UPDATE)) profileupdate;
 
   // all data properties
   editbasicinfo = false;
-  imagedata = defaultImage;
-  full_name = null;
-  designation = null;
-  location = null;
+  formData = {
+    imagedata : "",
+    full_name : "",
+    designation : "",
+    location : "",
+  };
+  
 
   // file upload function
   uploadProfileImage(event) {
+    let vm = this
     const file = event.target.files[0];
+    vm.formData.imagedata = file;
     if (file != null) {
       let render = new FileReader();
       render.onload = (event) => {
-        this.imagedata = event.target.result;
+        this.formData.imagedata = event.target.result;
       };
       render.readAsDataURL(file);
     } else {
-      this.imagedata = defaultImage;
+      this.formData.imagedata = defaultImage;
     }
   }
 
-  // Editor Update basic info section
+  // update user profile details
+  updateProfileInfo(){
+    this.profileupdate(this.formData)
+    .then((data)=>{
+      console.log(data);
+    })
+    .catch((e)=>{
+      console.log(e);
+    })
+  }
 
   mounted() {
-    console.log(this.profiledetails());
+    // console.log(this.profiledetails());
     if (this.userprofile != null) {
-      this.full_name = this.userprofile.full_name;
-      this.designation = this.userprofile.designation;
-      this.location = this.userprofile.location;
+      this.formData.full_name = this.userprofile.full_name;
+      this.formData.designation = this.userprofile.designation;
+      this.formData.location = this.userprofile.location;
     }
 
     if (this.userprofile.pp == null) {
-      this.imagedata = defaultImage;
+      this.formData.imagedata = defaultImage;
     } else {
-      this.imagedata = this.userprofile.pp;
+      this.formData.imagedata = this.userprofile.pp;
     }
   }
 }
