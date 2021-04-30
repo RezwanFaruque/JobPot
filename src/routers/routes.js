@@ -11,6 +11,7 @@ import EditResume from '../Pages/EditResume.vue';
 import UploadResume from '../Pages/UploadResume.vue';
 import BrowseJob from '../Pages/BrowseJob.vue';
 import Help from '../Pages/Help.vue';
+import JobDetails from '../Pages/JobDetails.vue';
 
 
 // creating routes for every page
@@ -199,6 +200,21 @@ const routes =  [
             }
         },
         component: Help,
+    },
+
+    {
+        path: "/browse-job/job-details",
+        name: "jobdetails",
+        meta: {
+            layout: "job-search-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
+                 
+                ]
+            }
+        },
+        component: JobDetails,
     }
 ]
 
