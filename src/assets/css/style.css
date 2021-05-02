@@ -2978,6 +2978,151 @@
   margin-top: 11px;
 }
 
+#job-details {
+  margin-top: 100px;
+  width: 100%;
+}
+#job-details .job-details-main-section {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+}
+#job-details .job-details-main-section .main-images-section {
+  width: 100%;
+  position: relative;
+}
+#job-details .job-details-main-section .main-images-section img {
+  width: 100%;
+  height: 262px;
+}
+#job-details .job-details-main-section .main-images-section .main-image-icon {
+  position: absolute;
+  bottom: -10%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 1px 2px #00000029;
+}
+#job-details .job-details-main-section .main-images-section .main-image-icon img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+#job-details .job-details-main-section .header {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#job-details .job-details-main-section .header .left .title {
+  font-size: 25px;
+  font-family: "Poppin-Medium";
+  line-height: 38px;
+  color: #000000;
+}
+#job-details .job-details-main-section .header .left .subtitle {
+  font-family: "Poppin-Regular";
+  font-size: 14px;
+  color: #012D3A;
+  line-height: 21px;
+}
+#job-details .job-details-main-section .header .left .posting-date {
+  padding-top: 30px;
+  font-size: 14px;
+  color: #76899C;
+  font-family: "Poppin-Light";
+}
+#job-details .job-details-main-section .header .right .details {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#job-details .job-details-main-section .header .right .details .love-job {
+  color: red;
+  font-size: 15px;
+  padding-right: 20px;
+}
+#job-details .job-details-main-section .header .right .details .dot-section::after {
+  content: "⠇";
+  font-size: 20px;
+  cursor: pointer;
+}
+#job-details .job-details-main-section .header .right .details-applicants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#job-details .job-details-main-section .header .right .details-applicants .applicants {
+  padding-right: 30px;
+  color: #012D3A;
+  font-size: 15px;
+  font-family: "Poppin-Regular";
+  line-height: 23px;
+}
+#job-details .job-details-main-section .header .right .details-applicants .deadline {
+  color: #012D3A;
+  font-size: 15px;
+  font-family: "Poppin-Regular";
+  line-height: 23px;
+}
+#job-details .job-details-main-section .other-detials {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#job-details .job-details-main-section .other-detials .section .title {
+  font-size: 12px;
+  color: #76899C;
+  font-family: "Poppin-Regular";
+}
+#job-details .job-details-main-section .other-detials .section .info {
+  font-size: 16px;
+  color: #012D3A;
+  font-family: "Poppin-Medium";
+}
+#job-details .job-details-main-section .main-detials {
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#job-details .job-details-main-section .main-detials .section {
+  margin-bottom: 20px;
+}
+#job-details .job-details-main-section .main-detials .section .title {
+  font-size: 16px;
+  font-family: "Poppin-Medium";
+  color: #2F3639;
+  line-height: 25px;
+}
+#job-details .job-details-main-section .main-detials .section .info {
+  font-size: 14px;
+  font-family: "Poppin-Light";
+  color: #2F3639;
+  line-height: 21px;
+  white-space: pre-line;
+}
+#job-details .job-details-main-section .main-detials .section .apply-button button {
+  background-color: #012D3A;
+  border: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 160px;
+  color: #FFFFFF;
+  font-family: "Poppin-Medium";
+  font-size: 18px;
+  line-height: 21px;
+}
+
 @media screen and (max-width: 1400px) {
   #bannar-section {
     height: 90vh;

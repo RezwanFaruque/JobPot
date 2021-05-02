@@ -3,14 +3,14 @@
     <div class="job-details-main-section">
       <div class="main-images-section">
         <img
-          class="profile-picture"
+          class="profile-picture-job-details"
           :src="require('../assets/vendor/Images/creer-dev-three.png')"
           alt=""
           srcset=""
         />
         <div class="main-image-icon">
           <img
-            class="profile-picture"
+            
             :src="require('../assets/vendor/Images/web-designer.png')"
             alt=""
             srcset=""
@@ -25,11 +25,14 @@
         </div>
         <div class="right">
           <div class="details">
-            <div class="love-job"></div>
+            <div class="love-job"><i class="fas fa-heart"></i></div>
             <div class="dot-section"></div>
           </div>
-          <div class="applicants">Posted 10 days ago.</div>
-          <div class="deadline">59 Applicants</div>
+          <div class="details-applicants">
+            <div class="applicants">Posted 10 days ago.</div>
+            <div class="deadline">59 Applicants</div>
+          </div>
+          
         </div>
       </div>
       <div class="other-detials">
@@ -126,7 +129,7 @@
 
         <div class="section">
           <div class="apply-button">
-            <button>apply</button>
+            <button>Apply Now</button>
           </div>
         </div>
       </div>
