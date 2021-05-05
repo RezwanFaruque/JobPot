@@ -129,7 +129,8 @@
 
         <div class="section">
           <div class="apply-button">
-            <button>Apply Now</button>
+            <button @click="applyForJob">Apply Now</button>
+            <ApplyForJobModal ref="applyforjobmodal" />
           </div>
         </div>
       </div>
@@ -139,11 +140,20 @@
 
 <script>
 import { Component, Vue, Watch } from "vue-property-decorator";
+import ApplyForJobModal from '../components/AppyForJobModal';
 
 @Component({
   name: "JobDetails",
+  components:{
+    ApplyForJobModal,
+  }
 })
-export default class JobDetails extends Vue {}
+export default class JobDetails extends Vue {
+
+  applyForJob(){
+    this.$refs.applyforjobmodal.show();
+  }
+}
 </script>
 
 <style>
