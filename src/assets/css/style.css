@@ -1607,6 +1607,152 @@
   color: white;
 }
 
+#applyforjobmodal .modal-dialog {
+  max-width: 70%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .header {
+  font-size: 20px;
+  font-family: "Poppin-Regular";
+  line-height: 30px;
+  color: #2f3639;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body {
+  padding-left: 5%;
+  padding-right: 7%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .title {
+  font-size: 18px;
+  font-family: "Poppin-Regular";
+  line-height: 27px;
+  color: #2f3639;
+  margin-bottom: 15px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .profile-info {
+  display: flex;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .profile-info .profile-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .profile-info .other-info {
+  margin-left: 15px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .profile-info .other-info .name {
+  font-size: 18px;
+  font-family: "Poppin-Regular";
+  line-height: 21px;
+  color: #2f3639;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .header .profile-info .other-info .designation {
+  font-size: 14px;
+  font-family: "Poppin-Regular";
+  line-height: 21px;
+  color: #2f3639;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form {
+  width: 100%;
+  margin-top: 50px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span {
+  width: 100%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form {
+  width: 100%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section.accept-term {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section.accept-term span .d-flex {
+  align-items: center;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section.accept-term span .d-flex input {
+  width: auto;
+  margin-right: 10px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span {
+  width: 100%;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span label {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppin-Light";
+  color: #76899c;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .resume {
+  height: 170px;
+  border: 0.5px solid #2f3639;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .resume .upload-section .pdf-thumb-border {
+  border: 1px dashed #277F6A;
+  width: 105px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .resume .upload-section .pdf-thumb-border img {
+  padding: 15px;
+  width: 65px;
+  height: 80px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .resume .upload-section .pdf-thumb-border .filename {
+  font-size: 8px;
+  font-family: "Poppin-Medium";
+  color: #012D3A;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .resume .upload-section button {
+  margin-top: 10px;
+  border: none;
+  background-color: #012D3A;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 102px;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 21px;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span input {
+  width: 100%;
+  border: 0.5px solid #2f3639;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span .agreed-term {
+  font-size: 14px;
+  line-height: 27px;
+  font-family: "Poppin-Light";
+  color: #76899c;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form .input-section span select {
+  width: 100%;
+  border: 0.5px solid #2f3639;
+}
+#applyforjobmodal .modal-dialog .modal-content .modal-body .body .form span form button {
+  width: 245px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+  background-color: #012D3A;
+  font-size: 20px;
+  font-family: "Roboto-Regular";
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
 #index-page {
   margin-bottom: 100px;
 }
