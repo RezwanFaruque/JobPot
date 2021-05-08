@@ -33,11 +33,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import DefaultLayout from './layouts/DefaultLayout';
 import GuestLayout from './layouts/GuestLayout';
 import JobSearchLayout from './layouts/JobSearchLayout';
+import JobPosterLayout from './layouts/JobPosterLayout';
 
 // register layout componet globally
 Vue.component('default-layout',DefaultLayout);
 Vue.component('guest-layout',GuestLayout);
 Vue.component('job-search-layout',JobSearchLayout);
+Vue.component('job-poster-layout',JobPosterLayout);
 
 import { namespaced } from "./store/utils";
 import { NS_USER } from "./store/namespace.names";

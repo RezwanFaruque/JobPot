@@ -28,7 +28,7 @@
                 <router-link to="/browse-job">Browse a Job</router-link>
               </li>
               <li class="nav-item">
-                <router-link  to="/personal-info">Post A Job</router-link>
+                <router-link  to="/post-job/primary-job-information">Post A Job</router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/">Build/Upload Resume</router-link>
@@ -36,7 +36,7 @@
             </ul>
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
               <li class="nav-item spec">
-                <router-link to="/">Post A Job</router-link>
+                <router-link to="/post-job/primary-job-information">Post A Job</router-link>
               </li>
               <li v-if="getprofile" class="nav-item">
                 <div class="loggedin-profile-info">

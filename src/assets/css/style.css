@@ -3269,6 +3269,113 @@
   line-height: 21px;
 }
 
+#primary-job-information {
+  margin-top: 50px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  padding-top: 27px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 27px;
+}
+#primary-job-information .title {
+  font-size: 18px;
+  font-family: "Poppin-Medium";
+  line-height: 27px;
+  color: #012d3a;
+}
+#primary-job-information .form-section {
+  width: 100%;
+}
+#primary-job-information .form-section span {
+  width: 100%;
+}
+#primary-job-information .form-section span form {
+  width: 100%;
+}
+#primary-job-information .form-section span form .input-section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+#primary-job-information .form-section span form .input-section .email {
+  margin-top: 10px;
+}
+#primary-job-information .form-section span form .input-section span {
+  width: 100%;
+  display: flex;
+}
+#primary-job-information .form-section span form .input-section span label {
+  width: 25%;
+  font-family: "Poppin-Regular";
+  font-size: 18px;
+  line-height: 27px;
+  color: #012d3a;
+}
+#primary-job-information .form-section span form .input-section span input {
+  width: 75%;
+  border: 0.5px solid #e1ebfb;
+  border-radius: 5px;
+}
+#primary-job-information .form-section span form .input-section span .upload-button {
+  width: 175px;
+  border: none;
+  background-color: #012d3a;
+  font-family: "Poppin-Regular";
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#primary-job-information .form-section span form .input-section span .no-image {
+  font-size: 16px;
+  color: #76899C;
+  font-family: "Poppin-Medium";
+  line-height: 21px;
+  margin-left: 20px;
+}
+#primary-job-information .form-section span form .input-section span .image {
+  margin-left: 20px;
+}
+#primary-job-information .form-section span form .input-section span .image img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+#primary-job-information .form-section span form .input-section span textarea {
+  width: 75%;
+  border: 0.5px solid #e1ebfb;
+  border-radius: 5px;
+  height: 100px;
+}
+#primary-job-information .form-section span form .input-section span select {
+  width: 75%;
+  border: 0.5px solid #e1ebfb;
+  border-radius: 5px;
+}
+#primary-job-information .form-section span form .input-section span .b-form-datepicker {
+  width: 75%;
+  border: 0.5px solid #e1ebfb;
+  border-radius: 5px;
+}
+#primary-job-information .form-section span form .submit-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#primary-job-information .form-section span form .submit-section .button-submit {
+  width: 175px;
+  height: 50px;
+  box-shadow: 0px 0px 1px #00000029;
+  border: 0.5px solid #e1ebfb;
+  border-radius: 5px;
+  background-color: #012D3A;
+  border: none;
+  font-size: 18px;
+  font-family: "Poppin-Medium";
+  color: #ffffff;
+}
+
 @media screen and (max-width: 1400px) {
   #bannar-section {
     height: 90vh;
