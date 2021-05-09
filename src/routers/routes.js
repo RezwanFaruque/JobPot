@@ -13,6 +13,7 @@ import BrowseJob from '../Pages/BrowseJob.vue';
 import Help from '../Pages/Help.vue';
 import JobDetails from '../Pages/JobDetails.vue';
 import PrimaryJobInformation from '../Pages/PrimaryJobInformation.vue';
+import MoreJobInformation from '../Pages/MoreJobInformation.vue';
 
 
 // creating routes for every page
@@ -231,6 +232,21 @@ const routes =  [
             }
         },
         component: PrimaryJobInformation,
+    },
+
+    {
+        path: "/post-job/more-job-information",
+        name: "morejobinformation",
+        meta: {
+            layout: "job-poster-layout",
+            progress: {
+                func: [
+                  {call: 'color', modifier: 'temp', argument: '#085aa0'},
+                 
+                ]
+            }
+        },
+        component: MoreJobInformation,
     }
 ]
 
