@@ -6,7 +6,7 @@
       <ValidationObserver v-slot="{ invalid }">
         <form>
           <div class="input-section">
-            <ValidationProvider rules="required" v-slot="{ errors }">
+            <ValidationProvider rules="required">
               <label>Job Level</label>
 
               <div class="input">
@@ -18,7 +18,7 @@
                 <button>Others</button>
               </div>
 
-              <span>{{ errors[0] }}</span>
+              
             </ValidationProvider>
           </div>
 
@@ -28,7 +28,7 @@
 
               <textarea placeholder="Job Overview" v-model="formData.joboverview"></textarea>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
@@ -38,7 +38,7 @@
 
               <textarea placeholder="Job responsibilities" v-model="formData.jobresponsibilities"></textarea>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
@@ -48,7 +48,7 @@
 
               <textarea placeholder="Job requirements" v-model="formData.jobrequirement"></textarea>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
@@ -62,7 +62,7 @@
                 
               </div>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
@@ -76,19 +76,24 @@
                 
               </div>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
-          <div class="input-section">
+          <div class="input-section salary-range">
             <ValidationProvider rules="required" v-slot="{ errors }">
               <label>Salary Range</label>
 
-               <input type="text" v-model="formData.minimumsalaryrange">
-               to
-               <input  type="text" v-model="formData.maximumsalaryrange">
+               <input class="minirange" type="text" v-model="formData.minimumsalaryrange">
+               <div class="to">
+                 To
+               </div>
+               <input class="maxirange"  type="text" v-model="formData.maximumsalaryrange">
+               <div class="to">
+                 /months
+               </div>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
@@ -98,7 +103,7 @@
 
               <textarea placeholder="Special Instruction" v-model="formData.specialinstruction"></textarea>
 
-              <span>{{ errors[0] }}</span>
+              <div>{{ errors[0] }}</div>
             </ValidationProvider>
           </div>
 
